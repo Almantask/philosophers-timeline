@@ -9,11 +9,26 @@ const sentenceCase = function (str) {
 };
 
 const humanizeDate = function (datetime, date) {
-  const m = moment(datetime || date);
-  if (datetime) {
-    return m.format('LLL');
+  const dateParts = datetime.split('-');
+  var year;
+  
+  if(datetime.startsWith('-')){
+	  year = dateParts[1];
+	  return `${year} BC`;
   }
-  return m.format('LL');
+  else{
+	  
+	  year = dateParts[0];
+	  
+	  if(Number(year) > 1000){
+		  return year;
+	  }
+	  else{
+		  return `AD ${Math.abs(year)}`; 
+	  }
+  }
+  
+  
 };
 
 const isWrappedInParagraphTags = function (html) {

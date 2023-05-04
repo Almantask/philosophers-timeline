@@ -7,7 +7,7 @@ const entries = [
     categories: ['Abstracionism'],
     color: 'green',
     faicon: 'dove',
-    datetime: '570-01-01',
+    datetime: '-570-01-01',
     title: 'Pythagoras',
     image: {
       link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg/220px-Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg',
@@ -15,7 +15,7 @@ const entries = [
       alt: 'Pythagoras',
       caption: 'Pythagoras',
     },
-    body: "Abstract ideas are perfect. Its' simplicity and elegance are the primary criterias of it being right. It doesn't have to represent the reality as we see it today, for we see too little. An equation representing a concept today may mean nothing practical, but be applied decades later. Had a cult who worshiped numbers.",
+    body: "Abstract ideas are perfect. Its' simplicity and elegance are the primary criterias of it being right. It doesn't have to represent the reality as we see it today, for we see too little. An equation representing a concept today may mean nothing practical, but be applied decades later. Had a cult who worshiped numbers. Considered to be the first philosopher. Ruled a province and was dethroned.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Pythagoras',
@@ -23,7 +23,28 @@ const entries = [
       },
     ],
   },
-    {
+  {
+    id: 'Herodotus',
+    categories: ['Abstracionism'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-484-01-01',
+    title: 'Herodotus',
+    image: {
+      link: 'https://cdnb.artstation.com/p/assets/images/images/050/528/273/large/rana-abdullah-1.jpg?1655074280',
+      src: 'https://cdnb.artstation.com/p/assets/images/images/050/528/273/large/rana-abdullah-1.jpg?1655074280',
+      alt: 'Herodotus',
+      caption: 'Herodotus',
+    },
+    body: "The first historian. Rather than just documenting the facts, he tried to document the grand mistakes that people made. He documented the biggest conflicts - wars. He was careful putting a distinction between opinion and facts. According to him - the motivation of wars comes from defending ones principles (rather than hatred, religion or similar external factors). He called a man dying for his principles a happy man.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Herodotus',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'Socrates',
     categories: ['Stoicism'],
     color: 'green',
@@ -36,7 +57,7 @@ const entries = [
       alt: 'Pythagoras',
       caption: 'Socrates',
     },
-    body: "Loved asking deep questions (to other people), until they would start contradicting themselves (socratic method). He claimed he was ignorant and knew nothing. Oracle of Deplhi called him the smartest of all - for he has admitted knowing nothing yet striving to learn more. Did not document his teachings. When caputred, he did not give into his principles and for that reason was executed.",
+    body: "Loved asking deep questions (to other people - mostly soldiers), until they would start contradicting themselves (socratic method). He claimed he was ignorant and knew nothing. Oracle of Deplhi called him the smartest of all - for he has admitted knowing nothing yet striving to learn more. Did not document his teachings. When caputred, he did not give into his principles and for that reason was executed. Was a firm believer that fundamental truths (like Pythagoras theorem) are intuitive and it is knowledge that everyone is familiar with, just lost in our consiousnes (dialogue with a barbarian).",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Socrates',
@@ -44,7 +65,7 @@ const entries = [
       },
     ],
   },
-    {
+  {
     id: 'Plato',
     categories: ['Abstracionism','Stoicism'],
     color: 'green',
@@ -57,7 +78,7 @@ const entries = [
       alt: 'Plato',
       caption: 'Plato',
     },
-    body: "Forms: Justice, Beauty, Equality. Metaphysics and abstract ideas. A part of Socrates cirlce. Documented Socrates work.",
+    body: "Forms: Justice, Beauty, Equality. Metaphysics and abstract ideas. A part of Socrates cirlce. The author of socratic dialogues (he claimed he marely documented Socrates, but he either lied or gave a good portion of himself). One of the first dramaturgs. Acknowledged the duality of a person: a feeling, passionate person; a rational, thinking person. Passion is what motivates and sometimes it seems we do the unrational.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Plato',
@@ -145,7 +166,7 @@ const entries = [
   },
   {
     id: 'JeremyBentham',
-    categories: ['Utilitariasm', 'Animal', 'Imperialism'],
+    categories: ['Utilitariasm', 'Animal', 'Empiricism'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1748-01-01',

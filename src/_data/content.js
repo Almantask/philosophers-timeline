@@ -99,7 +99,7 @@ const entries = [
       alt: 'Aristotle',
       caption: 'Aristotle',
     },
-    body: "Father of a lot of nature sciences. Formulated a definition of logic. To truly understand things one should touch them, feel them. Experience is important. The true joy of life is self-development.",
+    body: "Father of a of most nature sciences. Formulated a definition of logic. To truly understand things one should touch them, feel them. Experience is important. The true joy of life is self-development.",
   },
     {
     id: 'Pyrrho',
@@ -135,7 +135,7 @@ const entries = [
       alt: 'Epicurus',
       caption: 'Epicurus',
     },
-    body: "The garden of life. Human growing like a flower, blooming when self-developing. The simplicity of life, self sufficiency.",
+    body: "The garden of life. Human growing like a flower, blooming when self-developing. The simplicity of life, self-sufficiency. He gathered people into his house and taught the beauty of life, the need of tending to your environment and oneself.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Epicurus',

@@ -156,7 +156,28 @@ const entries = [
       alt: 'Seneca',
       caption: 'Seneca',
     },
-    body: "One of the greatest stoics. Seneca's letters and other great works of literature (TODO).",
+    body: "TODO.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Plato',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'SaintAugustine',
+    categories: ['Stoicism', 'Politics'],
+    color: 'green',
+    faicon: 'landmark',
+    datetime: '354-11-13',
+    title: 'Saint Augustine',
+    image: {
+      link: 'https://cdn.britannica.com/33/9433-050-C21D7F4F/marble-bust-Seneca-Staatliche-Museen-Berlin-Germany.jpg?w=400&h=300&c=crop',
+      src: 'https://cdn.britannica.com/33/9433-050-C21D7F4F/marble-bust-Seneca-Staatliche-Museen-Berlin-Germany.jpg?w=400&h=300&c=crop',
+      alt: 'Saint Augustine',
+      caption: 'Saint Augustine',
+    },
+    body: "TODO.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Plato',

@@ -78,7 +78,7 @@ const entries = [
       alt: 'Plato',
       caption: 'Plato',
     },
-    body: "Forms: Justice, Beauty, Equality. Metaphysics and abstract ideas. A part of Socrates cirlce. The author of socratic dialogues (he claimed he marely documented Socrates, but he either lied or gave a good portion of himself). One of the first dramaturgs. Acknowledged the duality of a person: a feeling, passionate person; a rational, thinking person. Passion is what motivates and sometimes it seems we do the unrational.",
+    body: "A part of Socrates cirlce. The author of socratic dialogues (he claimed he marely documented Socrates, but he either lied or gave a good portion of himself). One of the first dramaturgs (tragedies). Acknowledged the duality of a person: a feeling, passionate person; a rational, thinking person. Passion is what motivates and sometimes it seems we do the unrational.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Plato',

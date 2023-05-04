@@ -144,27 +144,6 @@ const entries = [
     ],
   },
   {
-    id: 'JohnStuartMill',
-    categories: ['Utilitariasm', 'Politics', 'Feminism'],
-    color: 'green',
-    faicon: 'feather-pointed',
-    datetime: '1806-01-01',
-    title: 'John Stuart Mill',
-    image: {
-      link: 'https://upload.wikimedia.org/wikipedia/commons/7/75/JohnStuartMill.jpg',
-      src: 'https://upload.wikimedia.org/wikipedia/commons/7/75/JohnStuartMill.jpg',
-      alt: 'John Stuart Mill',
-      caption: 'John Stuart Mill',
-    },
-    body: "A genius boy (raised as a genius as an experiment by his father), inspired by Bentham developing ideas of utilitariasm. Idea of higher and lower pleasures: it's better to be a sad human than a happy pig. One of the first feminists, fighters of equality. People should have all their freedoms unless those freedoms hurt others.",
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/John_Stuart_Mill',
-        linkText: 'Wiki',
-      },
-    ],
-  },
-  {
     id: 'JeremyBentham',
     categories: ['Utilitariasm', 'Animal', 'Imperialism'],
     color: 'green',
@@ -185,12 +164,33 @@ const entries = [
       },
     ],
   }, 
+  {
+    id: 'JohnStuartMill',
+    categories: ['Utilitariasm', 'Politics', 'Feminism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1806-01-01',
+    title: 'John Stuart Mill',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/7/75/JohnStuartMill.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/7/75/JohnStuartMill.jpg',
+      alt: 'John Stuart Mill',
+      caption: 'John Stuart Mill',
+    },
+    body: "A genius boy (raised as a genius as an experiment by his father), inspired by Bentham developing ideas of utilitariasm. Idea of higher and lower pleasures: it's better to be a sad human than a happy pig. One of the first feminists, fighters of equality. People should have all their freedoms unless those freedoms hurt others.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/John_Stuart_Mill',
+        linkText: 'Wiki',
+      },
+    ],
+  },
 ];
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
+const pageTitle = 'Cogito ergo sum'; // The title of the page that shows in the browser tab
+const pageDescription = 'Philosophers timeline'; // The description of the page for search engines
+const pageAuthor = 'Almantas Karpavičius'; // Your name
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
 const getFilters = (entries) => {

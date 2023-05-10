@@ -67,7 +67,7 @@ const entries = [
   },
   {
     id: 'Plato',
-    categories: ['Abstracionism','Stoicism'],
+    categories: ['Abstracionism','Stoicism', 'Politics'],
     color: 'green',
     faicon: 'dove',
     datetime: '-428-01-01',
@@ -78,7 +78,7 @@ const entries = [
       alt: 'Plato',
       caption: 'Plato',
     },
-    body: "A part of Socrates cirlce. The author of socratic dialogues (he claimed he marely documented Socrates, but he either lied or gave a good portion of himself). One of the first dramaturgs (tragedies). Acknowledged the duality of a person: a feeling, passionate person; a rational, thinking person. Passion is what motivates and sometimes it seems we do the unrational.",
+    body: "A part of Socrates cirlce. The author of socratic dialogues (he claimed he marely documented Socrates, but he either lied or gave a good portion of himself). One of the first dramaturgs (tragedies). Acknowledged the duality of a person: a feeling, passionate person; a rational, thinking person. Passion is what motivates and sometimes it seems we do the unrational. Republic - tried to understand the civil morals, how a person ought to live. Allegory of a cave: darkness is ignorance and light is a phylosophical light through which world not always visible through our visible senses should be seen. If we had the power to turn invisible, no matter good or bad, we would all turn corrupt and do our own bidding.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Plato',

@@ -354,6 +354,48 @@ const entries = [
     ],
   }, 
   {
+    id: 'GeorgWilhelmFriedrichHegel',
+    categories: ['Politics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1770-08-27',
+    title: 'Georg Wilhelm Friedrich Hegel',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/1831_Schlesinger_Philosoph_Georg_Friedrich_Wilhelm_Hegel_anagoria.JPG/220px-1831_Schlesinger_Philosoph_Georg_Friedrich_Wilhelm_Hegel_anagoria.JPG',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/1831_Schlesinger_Philosoph_Georg_Friedrich_Wilhelm_Hegel_anagoria.JPG/220px-1831_Schlesinger_Philosoph_Georg_Friedrich_Wilhelm_Hegel_anagoria.JPG',
+      alt: 'Georg Wilhelm Friedrich Hegel',
+      caption: 'Georg Wilhelm Friedrich Hegel',
+    },
+    body: "A cryptic writer, whose work were hardly understood by others, even himself. He said that the world is uncontrollably moving through breaththroughs which we cannot understand until they happen. He talked about the freedom of will, fredom of speech. The freedom was not only of an individual, but of a society as a whole. Each breakthrough expands the way of thinking (of both) and gives more freedom (to both).",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'ArthurSchopenhauer',
+    categories: ['Pesimism', 'Metaphysics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1788-02-22',
+    title: 'Arthur Schopenhauer',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/220px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/220px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg',
+      alt: 'Arthur Schopenhauer',
+      caption: 'Arthur Schopenhauer',
+    },
+    body: "Pesimistic, who said that life is meaningless. He wrote about invisible forces of the world. 'World as a will' - we (humans, animals, forces of nature) - are all led by some unknown force. We're all a part of the same. Art, especially music, is the best example 'world as will' as it encapsulates the ages. Also a hypocrite, because he didn't really respect others - even pushed one old lady, who died. He then created a poem and mocked her.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Arthur_Schopenhauer',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'JohnStuartMill',
     categories: ['Utilitariasm', 'Politics', 'Feminism'],
     color: 'green',
@@ -370,6 +412,27 @@ const entries = [
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/John_Stuart_Mill',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'KarlMarx',
+    categories: ['Politics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1818-05-05',
+    title: 'Karl Marx',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/220px-Karl_Marx_001.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/220px-Karl_Marx_001.jpg',
+      alt: 'John Stuart Mill',
+      caption: 'Karl Marx',
+    },
+    body: "A neverending fight between the working class and bosses. Communism. Perfect society rulled by the working class.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Karl_Marx',
         linkText: 'Wiki',
       },
     ],

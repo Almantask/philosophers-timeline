@@ -66,6 +66,27 @@ const entries = [
     ],
   },
   {
+    id: 'Hippocrates',
+    categories: ['Religion'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-460-01-01',
+    title: 'Hippocrates',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hippocrates.jpg/220px-Hippocrates.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hippocrates.jpg/220px-Hippocrates.jpg',
+      alt: 'Hippocrates',
+      caption: 'Hippocrates',
+    },
+    body: "Gods are everywhere and affect everything. Therefore, we shouldn't rule our a single phenomena. Things should be observed, felt, touched and empiracally evaluated.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Hippocrates',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'Plato',
     categories: ['Abstracionism','Stoicism', 'Politics'],
     color: 'green',
@@ -99,7 +120,7 @@ const entries = [
       alt: 'Aristotle',
       caption: 'Aristotle',
     },
-    body: "Father of a of most nature sciences. Formulated a definition of logic. To truly understand things one should touch them, feel them. Experience is important. The true joy of life is self-development.",
+    body: "Father of a of most nature sciences. Formulated a definition of logic. To truly understand things one should touch them, feel them. Experience is important. The true joy of life is self-development. 3 kinds of friendships: for pleasure, for utility - the thrid one - the most important one - a friendship were each party wants good for the other without wanting anything for themselves in return. Virtues are a middlepoint between extreme deficiency and excess.",
   },
     {
     id: 'Pyrrho',
@@ -434,7 +455,7 @@ const entries = [
       {
         href: 'https://en.wikipedia.org/wiki/Karl_Marx',
         linkText: 'Wiki',
-      },
+      }, 
     ],
   },
 ];

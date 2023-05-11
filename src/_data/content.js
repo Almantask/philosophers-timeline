@@ -458,10 +458,241 @@ const entries = [
       }, 
     ],
   },
+  {
+    id: 'WilliamJames',
+    categories: ['Metaphysics', 'Scepticism', 'Pragmatism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1818-05-05',
+    title: 'William James',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/William_James_b1842c.jpg/220px-William_James_b1842c.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/William_James_b1842c.jpg/220px-William_James_b1842c.jpg',
+      alt: 'William James',
+      caption: 'William James',
+    },
+    body: "Philosophical questions are meaningless, unless they in itself bring practical value. Pragmatic philosophy. Words are an innacurate representation of the world. The world is actually expressed through people. Truth is value (gain).",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/William_James',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'FriedrichNietzsche',
+    categories: ['Metaphysics', 'Scepticism', 'Pragmatism', 'Ethics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1844-10-15',
+    title: 'Friedrich Nietzsche',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/220px-Nietzsche187a.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/220px-Nietzsche187a.jpg',
+      alt: 'Friedrich Nietzsche',
+      caption: 'Friedrich Nietzsche',
+    },
+    body: "Pessimistic. There is something beyond good and evil and humanity should strive for it to reach the next stage. Superhuman idea - a human who could go beyond morale. Went mad at the end of his life.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Friedrich_Nietzsche',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'SigmundFreud',
+    categories: ['Psychology'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1856-05-06',
+    title: 'Sigmund Freud',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/220px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/220px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg',
+      alt: 'Sigmund Freud',
+      caption: 'Sigmund Freud',
+    },
+    body: "We often don't do what we want. Our true desires lie deep in our subconscious - for example, in our dreams or in failures (failures he said may be done maybe on purpose without realising that). Our true desires are revealed by simply letting one talk.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Sigmund_Freud',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'BertrandRussell',
+    categories: ['Metaphysics', 'Paradoxes'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1872-05-18',
+    title: 'Bertrand Russell',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bertrand_Russell_1957.jpg/220px-Bertrand_Russell_1957.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bertrand_Russell_1957.jpg/220px-Bertrand_Russell_1957.jpg',
+      alt: 'Bertrand Russell',
+      caption: 'Bertrand Russell',
+    },
+    body: "Pacifist, materialist. Author of set theory. Analyzed paradoxes. Linguistics - a setence can be: a - about one concrete thing, b - about a group of similar things, c - about a group which is always the same, unchanging. If you understand this - you can answer true or false to anything.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Bertrand_Russell',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'LudwigWittgenstein',
+    categories: ['Metaphysics', 'Paradoxes'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1889-04-26',
+    title: 'Ludwig Wittgenstein',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/35._Portrait_of_Wittgenstein.jpg/220px-35._Portrait_of_Wittgenstein.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/35._Portrait_of_Wittgenstein.jpg/220px-35._Portrait_of_Wittgenstein.jpg',
+      alt: 'Ludwig Wittgenstein',
+      caption: 'Ludwig Wittgenstein',
+    },
+    body: "Philosophical books are useless. Language deceives us - people say what they don't mean. TODO",
+    links: [
+      {
+        href: 'https://lt.wikipedia.org/wiki/Ludwig_Wittgenstein',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'KarlPopper',
+    categories: ['Existentialism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1902-07-28',
+    title: 'Karl Popper',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/250px-Karl_Popper.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/250px-Karl_Popper.jpg',
+      alt: 'Karl Popper',
+      caption: 'Karl Popper',
+    },
+    body: "Is a man guilty, if they just followed the orders? For example a nazzi, who was responsible of scheduling trains on time - was he guilty of doing a good job and scheduling jews killings? She would said - not guilty, because if circumstances were different - that person could even be a good person.",
+    links: [
+      {
+        href: 'https://lt.wikipedia.org/wiki/Karl_Popper',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'JeanPaulSartreAndSimoneBolivar',
+    categories: ['Existentialism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1905-04-15',
+    title: 'Jean-Paul Sartre and Simone Bolivar',
+    image: {
+      link: 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/28/16/satre-de-beauvoir-rex-features.jpg',
+      src: 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/28/16/satre-de-beauvoir-rex-features.jpg',
+      alt: 'Jean-Paul Sartre and Simone Bolivar',
+      caption: 'Jean-Paul Sartre and Simone Bolivar',
+    },
+    body: "Lovers for life (even though officially married to other people). Most was written in a caffee. Existentialism - meaningless being. We choose how we live our life - it's our choice whether we want to give it meaning or not. In its' essence - human is meaningless. To be sad - is also a choice. Satre was using meth, his work was near impossible to understand in the end.",
+    links: [
+      {
+        href: 'https://www.independent.co.uk/arts-entertainment/books/features/existentialism-sarah-bakewell-jean-paul-sartre-simone-de-beauvoir-a6901501.html',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'HannahArendt',
+    categories: ['Ethics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1906-10-14',
+    title: 'Hannah Arendt',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hannah_Arendt_1933.jpg/220px-Hannah_Arendt_1933.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Hannah_Arendt_1933.jpg/220px-Hannah_Arendt_1933.jpg',
+      alt: 'Hannah Arendt',
+      caption: 'Hannah Arendt',
+    },
+    body: "Is a man guilty, if they just followed the orders? For example a nazzi, who was responsible of scheduling trains on time - was he guilty of doing a good job and scheduling jews killings? She would said - not guilty, because if circumstances were different - that person could even be a good person.",
+    links: [
+      {
+        href: 'https://lt.wikipedia.org/wiki/Hannah_Arendt',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'AJAyer',
+    categories: ['Ethics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1910-10-29',
+    title: 'A. J. Ayer',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Alfred_Jules_Ayer.png',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Alfred_Jules_Ayer.png',
+      alt: 'A. J. Ayer',
+      caption: 'A. J. Ayer',
+    },
+    body: "Boo! Hooray! theory - sentiments shouldn't be used when proving a point. For the same reason there is no point in discussing moralility by itself. For example - is torture bad? Is being friendly a good thing? To answer such questions is the same as shouting 'Boo!', 'Hooray!'. We can discuss these things - but facts and concrete examples need to be a centre piece of it all. Most philosophy is useless, especially metaphysics (becuase it's about nothing).",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/A._J._Ayer',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'Peter Singer',
+    categories: ['Ethics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1971-02-21',
+    title: 'Peter Singer',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Peter_Singer_2017_%28cropped%29.jpg/220px-Peter_Singer_2017_%28cropped%29.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Peter_Singer_2017_%28cropped%29.jpg/220px-Peter_Singer_2017_%28cropped%29.jpg',
+      alt: 'Peter Singer',
+      caption: 'Peter Singer',
+    },
+    body: "Charity, when you give resources, may be harmful. Charity, when you give knowledge - is always benefitial.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Peter_Singer',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'JohnRawls',
+    categories: ['Politics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1971-02-21',
+    title: 'John Rawls',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/John_Rawls_%281971_photo_portrait%29.jpg/220px-John_Rawls_%281971_photo_portrait%29.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/John_Rawls_%281971_photo_portrait%29.jpg/220px-John_Rawls_%281971_photo_portrait%29.jpg',
+      alt: 'John Rawls',
+      caption: 'John Rawls',
+    },
+    body: "The innequality of society. Definition of an ideal world is beast to our own ways of thinking. To create a non-biast view, one should assume the any role in the society created.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/John_Rawls',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
 ];
 
 // Page details
-const pageTitle = 'Cogito ergo sum'; // The title of the page that shows in the browser tab
+const pageTitle = 'Philosophers of the ages'; // The title of the page that shows in the browser tab
 const pageDescription = 'Philosophers timeline'; // The description of the page for search engines
 const pageAuthor = 'Almantas Karpavičius'; // Your name
 

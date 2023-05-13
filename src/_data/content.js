@@ -145,7 +145,7 @@ const entries = [
   },
   {
     id: 'Epicurus',
-    categories: ['Stoicism'],
+    categories: ['Empiricism'],
     color: 'green',
     faicon: 'dove',
     datetime: '-270-01-01',
@@ -156,7 +156,7 @@ const entries = [
       alt: 'Epicurus',
       caption: 'Epicurus',
     },
-    body: "The garden of life. Human growing like a flower, blooming when self-developing. The simplicity of life, self-sufficiency. He gathered people into his house and taught the beauty of life, the need of tending to your environment and oneself.",
+    body: "The garden of life. Human growing like a flower, blooming when self-developing. The simplicity of life, self-sufficiency. Happiness is the absence of pain. He gathered people into his house and taught the beauty of life, the need of tending to your environment and oneself. Unlike stoics, he promoted living in a small group of people in a garden, using the 2nd friendship - utility.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Epicurus',

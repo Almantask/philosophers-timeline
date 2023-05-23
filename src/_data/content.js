@@ -249,6 +249,27 @@ const entries = [
     ],
   },
   {
+    id: 'ThomasAquinas',
+    categories: ['Religion'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1225-03-07',
+    title: 'Thomas Aquinas',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/220px-St-thomas-aquinas.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/220px-St-thomas-aquinas.jpg',
+      alt: 'Niccolò Machiavelli',
+      caption: 'Thomas Aquinas',
+    },
+    body: "Started a rational analysis of religion - scholasticism. Didn't like other filosophers, however had great admiration for Aristotle. Called him The Philosopher. He said that to reach salvation, on top of being virtous, one should also be generous. He claimed that laws should be modeled based on ideals that people ought to follow. Thomas Aquinas stated that the evidence of freedom of will are punishments. If there was no freedom of will, then punishments would be vain, unjustifiable.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Thomas_Aquinas',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'NiccoloMachiavelli',
     categories: ['Politics'],
     color: 'green',
@@ -291,6 +312,27 @@ const entries = [
     ],
   },
   {
+    id: 'FrancisBacon',
+    categories: ['Empiricism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1561-01-22',
+    title: 'Francis Bacon',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/British_-_Francis_Bacon_-_Google_Art_Project.jpg/250px-British_-_Francis_Bacon_-_Google_Art_Project.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/British_-_Francis_Bacon_-_Google_Art_Project.jpg/250px-British_-_Francis_Bacon_-_Google_Art_Project.jpg',
+      alt: 'Francis Bacon',
+      caption: 'Francis Bacon',
+    },
+    body: "Essentially started the scientific method which strives to prove theories through experiments. A failed experiment is all that is needed to disprove a theory. Without experience - nothing can be known. Two modes of aquiring knowledge: reasoning, experience. If you  wish a guide in the searhc of knowledge - let that guide be experience. Choose the light of experience, not the authority of texts. 'Like falling in love with a picture, words are simply representative of thing in the external world. If you were interested in the external world, venture into that world, don't just talk about it.' Wanted to create a science for the human mind (first ideas of psychology).",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Francis_Bacon',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'Descartes',
     categories: ['Metaphysics', 'Scepticism', 'Empiricism'],
     color: 'green',
@@ -303,7 +345,7 @@ const entries = [
       alt: 'René Descartes',
       caption: 'René Descartes',
     },
-    body: "You cannot be sure whether you experience a dream or reality. The only thing you can be sure of is of your own thoughts - 'I think therefore I am' (cogito ergo sum). Dualism of mind and body (mind doesn't have to be contained within a conventional body). Invented Cartesian coordinate system.",
+    body: "You cannot be sure whether you experience a dream or reality. The only thing you can be sure of is of your own thoughts - 'I think therefore I am' (cogito ergo sum). Dualism of mind and body (mind doesn't have to be contained within a conventional body). Invented Cartesian coordinate system. 'Discource of method: 1. Accept nothing is ture. 2. Divide problem into as many steps as we can. 3. Work from the smallest step of a solution to a larger one. You reach the overall solution by solving fundamental problems. 4. Test it. Rather than finding a proof - search for exceptions to the rule.'",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes',
@@ -349,6 +391,174 @@ const entries = [
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Baruch_Spinoza',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'IsaacNewton',
+    categories: ['Empiricism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1643-01-04',
+    title: 'Isaac Newton',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/220px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg/220px-Portrait_of_Sir_Isaac_Newton%2C_1689.jpg',
+      alt: 'Isaac Newton',
+      caption: 'Isaac Newton',
+    },
+    body: "Model an abstract idea into most simple, small, basic concept. For example, instead of planets, think of dots. This is a so called idealised model or a hypothesis. Improved scientific method by striving to come up with general pinrciples that apply in practrice and at all levels without exceptions. Deductive reasoning: 1. premis. 2. logical justification. 3. conclusions. 4. experimenting. Lifelong scholastic. Invented calculus, defined a general law of relativity. Was considered the last alchemist.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Isaac_Newton',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'JohnLocke',
+    categories: ['Empiricism', 'Materialism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1632-08-29',
+    title: 'John Locke',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/John_Locke.jpg/220px-John_Locke.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/John_Locke.jpg/220px-John_Locke.jpg',
+      alt: 'John Locke',
+      caption: 'John Locke',
+    },
+    body: "A good friend of Newton, further pushed the philosophy of science. Some thoughts can eixist without invoking experiences: intuitive (for example a contradiction: something cannot be and not be) or demonstrative (abstract proofs). We start with nothing and get everything through experience. You can either sense and experience an object or just experience it. Personal identity is a collection of experiences. Simple fundamental parts make a greater whole. Each object can be examined with a primary quality -  direct experiences (hardness, shape, weight) and secondary quality - subjective experiences, which will be different depending on the observer (color, tase, smell, texture)",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/John_Locke',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'GottfriedWilhelmLeibniz',
+    categories: ['Materialism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1646-07-01',
+    title: 'Gottfried Wilhelm Leibniz',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/220px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/220px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg',
+      alt: 'Gottfried Wilhelm Leibniz',
+      caption: 'Gottfried Wilhelm Leibniz',
+    },
+    body: "He argued lock's materialism. 'Nothing is in the mind except what is in the sense, unless there already is an intellect'. There can't be a mind that is empty, we not only experience, we know that we experience. All the experiences are a group of something, it's hard to single out one thing that caused a sensation. For example 'sweetness', 'bitterness', 'blueeness'. Leibniz accused Newton of plagiarism on Calculus - because he too has invented it and in fact published it earlier. However, the claim was rejected for the way the two implementations work are too different to be considered plagiarism.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'GeorgeBerkeley',
+    categories: ['Materialism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1646-07-01',
+    title: 'George Berkeley',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/John_Smibert_-_Bishop_George_Berkeley_-_Google_Art_Project.jpg/220px-John_Smibert_-_Bishop_George_Berkeley_-_Google_Art_Project.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/John_Smibert_-_Bishop_George_Berkeley_-_Google_Art_Project.jpg/220px-John_Smibert_-_Bishop_George_Berkeley_-_Google_Art_Project.jpg',
+      alt: 'George Berkeley',
+      caption: 'George Berkeley',
+    },
+    body: "Material things exist, but only with the help of it perceiving concious mind. 'Does a tree falling in the forest, observed by no one, make a sound'? 'No mind - no matter. No matter - nevermind'. To be is to be perceived.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/George_Berkeley',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'Voltaire',
+    categories: ['Pragmatism'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1694-11-21',
+    title: 'Voltaire',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/220px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg/220px-Atelier_de_Nicolas_de_Largilli%C3%A8re%2C_portrait_de_Voltaire%2C_d%C3%A9tail_%28mus%C3%A9e_Carnavalet%29_-002.jpg',
+      alt: 'Voltaire',
+      caption: 'Voltaire',
+    },
+    body: "Open minded, wanted to logically deny other philosophers. Truth seeker and anti-dogmatic. Protected other people and used philosophy for good. Thinking is not enough, you should do something with it.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Voltaire',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'DavidHume',
+    categories: ['Utilitariasm'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1711-05-07',
+    title: 'David Hume',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Painting_of_David_Hume.jpg/220px-Painting_of_David_Hume.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Painting_of_David_Hume.jpg/220px-Painting_of_David_Hume.jpg',
+      alt: 'David Hume',
+      caption: 'David Hume',
+    },
+    body: "Open-minded, to an extent that liked to deny his own thoughts. Didn't like guesses, especially that which people don't understand and simply call 'God'. Tried to figure out what motivates people, the meaning of life - called that utility - thus the word utilitariasm - maximizing pleasure and minizming pain.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/David_Hume',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'JeanJacquesRousseau',
+    categories: ['Politics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1712-06-28',
+    title: 'Jean-Jacques Rousseau',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/220px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/220px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg',
+      alt: 'Jean-Jacques Rousseau',
+      caption: 'Jean-Jacques Rousseau',
+    },
+    body: "A political thinker, who said that society should serve common people. Benefits can be of two kinds: personal and widespread within society. Social benefits should be enforced.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'ImmanuelKant',
+    categories: ['Metaphysics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1724-04-22',
+    title: 'Immanuel Kant',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Kant_gemaelde_3.jpg/220px-Kant_gemaelde_3.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Kant_gemaelde_3.jpg/220px-Kant_gemaelde_3.jpg',
+      alt: 'Immanuel Kant',
+      caption: 'Immanuel Kant',
+    },
+    body: "Father of metaphysics. Synthetical apriori knowledge - things which don't have to be accurate, not real, but widely spread, accepted by public and that is enough. Spent a significant amount of timeo on ethics. According to him, people should act morally regardless of their emotions. If your morale is driven by emotions and not reason - you are being immoral. Even if you did something that would be interpreted as moral, if that was done as a reaction, rather than a consious thought - then it is not a moral action. You cannot ever lie, not even say a white lie. If everyone did white lies all the time - world would decend into chaos.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Immanuel_Kant',
         linkText: 'Wiki',
       },
     ],

@@ -105,6 +105,22 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Plato',
         linkText: 'Wiki',
       },
+	  {
+        href: 'http://www.amazon.com/gp/product/0140449280/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140449280&linkId=043e78a2b8873d9b6291b1567c6e52ec',
+        linkText: 'The Last Days of Socrates: Euthyphro; Apology; Crito; Phaedo, by Plato (572 p., +audio)',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0140449272/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140449272&linkId=9dba0bcf05f281afab7ee7487639054b',
+        linkText: 'The Symposium, by Plato (144 p.)',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0140455116/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140455116&linkId=30c7d6aa18e395f1a79d531ac6b2519d',
+        linkText: 'Republic, by Plato (416 p.)',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0521436109/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0521436109&linkId=7a5b9c26447c5bd6faa8bbe6fe768b52',
+        linkText: 'The Cambridge Companion to Plato, by Richard Kraut (576 p.)',
+      },
     ],
   },
     {
@@ -121,6 +137,28 @@ const entries = [
       caption: 'Aristotle',
     },
     body: "Father of a of most nature sciences. Formulated a definition of logic. To truly understand things one should touch them, feel them. Experience is important. The true joy of life is self-development. 3 kinds of friendships: for pleasure, for utility - the thrid one - the most important one - a friendship were each party wants good for the other without wanting anything for themselves in return. Virtues are a middlepoint between extreme deficiency and excess.",
+	links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Aristotle',
+        linkText: 'Wiki',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0199213615/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0199213615&linkId=f18186fee7d024481a9574760906cea9',
+        linkText: 'The Nicomachean Ethics, by Aristotle (336 p., +audio',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0199538735/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0199538735&linkId=8b38717d791a65e22e1a7b110f2a5fad',
+        linkText: 'Politics, by Aristotle (480 p.)',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0140446192/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140446192&linkId=c2cd9cc6abb3448df7a7b247e77ef994',
+        linkText: 'The Metaphysics, by Aristotle (528 p.)',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0521422949/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0521422949&linkId=12b3f1ee82a944272d7304c63667fba0',
+        linkText: 'The Cambridge Companion to Aristotle, by Jonathon Barnes (434 p.)',
+      },
+    ],
   },
     {
     id: 'Pyrrho',
@@ -162,6 +200,10 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Epicurus',
         linkText: 'Wiki',
       },
+	  {
+        href: 'http://www.amazon.com/Art-Happiness-Penguin-Classics/dp/0143107216?&linkCode=ll1&tag=philosophybre-20&linkId=d8a3b590522e1bcf3bc04d808e1695d1&language=en_US&ref_=as_li_ss_tl',
+        linkText: 'The Art of Happiness, by Epicurus (251 p.)',
+      },
     ],
   },
   {
@@ -180,8 +222,20 @@ const entries = [
     body: "TODO.",
     links: [
       {
-        href: 'https://en.wikipedia.org/wiki/Plato',
+        href: 'https://en.wikipedia.org/wiki/Seneca',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0140442103/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140442103&linkId=53524be7bd4e91403113c3e5494786ac',
+        linkText: 'Letters from a Stoic, by Seneca (256 p., +audio)',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0140449469/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140449469&linkId=73e3249fb0aa7e242c68e9de1623d07c',
+        linkText: 'Discourses and Selected Writings, by Epictetus (304 p., +audio)',
+      },
+	  	  {
+        href: 'http://www.amazon.com/gp/product/0140449337/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140449337&linkId=c10bdf039a0f73844cab3ab9510ec53e',
+        linkText: 'Meditations, by Marcus Aurelius (304 p.)',
       },
     ],
   },
@@ -267,6 +321,10 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Thomas_Aquinas',
         linkText: 'Wiki',
       },
+	  {
+        href: 'https://www.amazon.com/Aquinass-Shorter-Summa-Thomass-Theologica/dp/1928832431?SubscriptionId=1RN7ZZ7D7SDQHR7TRJG2&tag=shanesherman-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=1928832431',
+        linkText: 'Summa Theologica by Thomas Aquinas (432 p., +audio)',
+      },
     ],
   },
   {
@@ -287,6 +345,10 @@ const entries = [
       {
         href: 'https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'http://www.amazon.com/Prince-Penguin-Classics-Niccolo-Machiavelli/dp/0140449159?&linkCode=ll1&tag=philosophybre-20&linkId=14c13b2c96908b5fe06e8267c0d0d90a&language=en_US&ref_=as_li_ss_tl',
+        linkText: 'The Prince, by Niccolò Machiavelli (144 p.)',
       },
     ],
   },
@@ -330,6 +392,10 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Francis_Bacon',
         linkText: 'Wiki',
       },
+	  {
+        href: 'https://amzn.to/2SF6Bjv',
+        linkText: 'The New Organon, by Francis Bacon (292 p.)',
+      },
     ],
   },
   {
@@ -350,6 +416,22 @@ const entries = [
       {
         href: 'https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/Discourse-Method-Rightly-Conducting-Seeking/dp/1978277644',
+        linkText: 'Discourse on the Method of Rightly Conducting One’s Reason and of Seeking Truth in the Sciences (36 p.)',
+      },
+	  {
+        href: 'https://www.amazon.com/Meditations-First-Philosophy-Hackett-Classics/dp/0872201929',
+        linkText: 'Meditations on First Philosophy (80 p.)',
+      },
+	  {
+        href: 'https://www.amazon.com/Principles-Philosophy-Rene-Descartes/dp/1604597402',
+        linkText: 'The Principles of Philosophy (72 p.)',
+      },
+	  {
+        href: 'https://www.amazon.com/Passions-Soul-l%C3%82me/dp/0872200353',
+        linkText: 'The Passions of the Soul (192 p.)',
       },
     ],
   },
@@ -393,6 +475,14 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Baruch_Spinoza',
         linkText: 'Wiki',
       },
+	  {
+        href: 'https://amzn.to/2AFaGxn',
+        linkText: 'Ethics, by Spinoza (134 p., +audio)',
+      },
+	  {
+        href: 'https://amzn.to/2VzSAWa',
+        linkText: 'A Spinoza Reader: The Ethics and Other Works, by Spinoza (280 p.)',
+      },
     ],
   },
   {
@@ -435,6 +525,18 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/John_Locke',
         linkText: 'Wiki',
       },
+	  {
+        href: 'http://www.amazon.com/gp/product/087220216X/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=087220216X&linkId=ebfa57e638093b07e7676016415fbb51',
+        linkText: 'An Essay Concerning Human Understanding, by John Locke (416 p.)',
+      },
+	  {
+        href: 'http://www.amazon.com/gp/product/0486424642/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0486424642&linkId=dfa7ae0d2efd4cc9a965866ed9a19c4e',
+        linkText: 'Second Treatise of Government, by John Locke (144 p.)',
+      },
+	  {
+        href: 'http://www.amazon.com/Cambridge-Companion-Locke-Companions-Philosophy-ebook/dp/B00A4A6AFK?&linkCode=ll1&tag=philosophybre-20&linkId=c1921a692774978c9e467ee522e1db0f&language=en_US&ref_=as_li_ss_tl',
+        linkText: 'The Cambridge Companion to Locke, by Vere Chappell (344 p.)',
+      },
     ],
   },
   {
@@ -455,6 +557,10 @@ const entries = [
       {
         href: 'https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/Leibniz-Philosophical-Essays-Hackett-Classics/dp/0872200620',
+        linkText: 'Philosophical Essays, by Leibnitz (366 p.)',
       },
     ],
   },
@@ -498,6 +604,14 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Voltaire',
         linkText: 'Wiki',
       },
+	  {
+        href: 'http://www.amazon.com/Candide-Optimism-Classics-Francois-Voltaire/dp/0140455108?&linkCode=ll1&tag=philosophybre-20&linkId=7264de9756fee7732f8e8878ea9f8c1f&language=en_US&ref_=as_li_ss_tl',
+        linkText: 'Candide, by Voltaire (155 p., +audio)',
+      },
+	  {
+        href: 'http://www.amazon.com/Pocket-Philosophical-Dictionary-Oxford-Classics/dp/0199553637?&linkCode=ll1&tag=philosophybre-20&linkId=a96d6b49ffca3bf88a1ba76f7de24a1f&language=en_US&ref_=as_li_ss_tl',
+        linkText: 'A Pocket Philosophical Dictionary, by Voltaire (283 p.)',
+      },
     ],
   },
   {
@@ -518,6 +632,14 @@ const entries = [
       {
         href: 'https://en.wikipedia.org/wiki/David_Hume',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/Enquiry-Concerning-Human-Understanding/dp/193604191X',
+        linkText: 'An Enquiry Concerning Human Understanding, by David Hume (162 p., +audio)',
+      },
+	  {
+        href: 'https://www.amazon.com/Treatise-Human-Nature-Philosophical-Classics/dp/0486432505',
+        linkText: 'A Treatise of Human Nature, by David Hume (480 p.)',
       },
     ],
   },
@@ -561,6 +683,22 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Immanuel_Kant',
         linkText: 'Wiki',
       },
+	  {
+        href: 'http://www.amazon.com/gp/product/0140447474/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140447474&linkId=db7cec8e3ab40cc3069e1d685c824d11',
+        linkText: 'Critique of Pure Reason, by Immanuel Kant (784 p., +audio)',
+      },
+	  {
+        href: 'https://www.amazon.co.uk/dp/0872205932/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=c2281161b0ac2ae92f2fd300c7538ca0&creativeASIN=0872205932&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'Prolegomena to Any Future Metaphysics, by Immanuel Kant (160 p.)',
+      },
+	  {
+        href: 'https://www.amazon.co.uk/dp/1107401062/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=7f15e4461c5be9d2444502008378c025&creativeASIN=1107401062&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'Groundwork of the Metaphysics of Morals, by Immanuel Kant (134 p.)',
+      },
+	  {
+        href: 'https://www.amazon.co.uk/dp/0415843456?ref_=as_li_ss_tl&language=en_US&linkCode=gg2&linkId=9890b9e2bc77ff7150d58b18a68812b0&tag=philosophybre-20',
+        linkText: 'Kant, by Paul Guyer (520 p.)',
+      },
     ],
   },
   {
@@ -581,6 +719,10 @@ const entries = [
       {
         href: 'https://en.wikipedia.org/wiki/Jeremy_Bentham',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/gp/product/0198205163/ref=as_li_tl?ie=UTF8&tag=philosophyf09-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0198205163&linkId=f9b171d4e3e0f14d627d44b046e4c17d',
+        linkText: 'An Introduction to the Principles of Morals and Legislation, by Jeremy Bentham (456 p., +audio)',
       },
     ],
   }, 
@@ -645,6 +787,14 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/John_Stuart_Mill',
         linkText: 'Wiki',
       },
+	  {
+        href: 'https://www.amazon.com/Liberty-John-Stuart-Mill/dp/1548076058',
+        linkText: 'On Liberty, by John Stuart Mill (95 p., +audio)',
+      },
+	  {
+        href: 'https://en.wikipedia.org/wiki/John_Stuart_Mill',
+        linkText: 'The Subjection of Women, by John Stuart Mill (112 p., +audio)',
+      },
     ],
   },
   {
@@ -687,6 +837,14 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/William_James',
         linkText: 'Wiki',
       }, 
+	  {
+        href: 'https://www.amazon.co.uk/dp/0486202917/ref=as_at?linkCode=gs2&tag=fivboo-21',
+        linkText: 'The Will to Believe, Human Immortality, and Other Essays in Popular Philosophy, by William James (448 p., +audio)',
+      }, 
+	  {
+        href: 'https://en.wikipedia.org/wiki/William_James',
+        linkText: 'Pragmatism, by William James (152 p., +audio)',
+      }, 
     ],
   },
   {
@@ -707,7 +865,19 @@ const entries = [
       {
         href: 'https://en.wikipedia.org/wiki/Friedrich_Nietzsche',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.co.uk/dp/0679724656/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=f0d74bfafd967a488c12126c2dccb975&creativeASIN=0679724656&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'Beyond Good & Evil, by Friedrich Nietzsche (288 p.)',
       }, 
+	  {
+        href: 'https://www.amazon.co.uk/dp/0141195371/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=823bb4eb6e1b8494f4960f18490a2d54&creativeASIN=0141195371&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'On the Genealogy of Morals, by Friedrich Nietzsche (167 p.)',
+      }, 
+	  {
+        href: 'http://www.amazon.com/gp/product/0140441182/ref=as_li_tl?ie=UTF8&tag=philosophybre-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140441182&linkId=463ca60c2eea3d8021001814ba19d397',
+        linkText: 'Thus Spoke Zarathustra, by Friedrich Nietzsche (352 p., +audio)',
+      }
     ],
   },
   {
@@ -750,6 +920,10 @@ const entries = [
         href: 'https://en.wikipedia.org/wiki/Bertrand_Russell',
         linkText: 'Wiki',
       }, 
+	  {
+        href: 'https://www.amazon.co.uk/dp/0671201581/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=7f9e5b8a5812d027ddd5c31d266aca87&creativeASIN=0671201581&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'The History of Western Philosophy, by Bertrand Russell (906 p., +audio)',
+      }, 
     ],
   },
   {
@@ -770,6 +944,14 @@ const entries = [
       {
         href: 'https://lt.wikipedia.org/wiki/Ludwig_Wittgenstein',
         linkText: 'Wiki',
+      }, 
+	  {
+        href: 'https://www.amazon.co.uk/dp/0486404455/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=8a110eceac555f4fa561d5baae6928c6&creativeASIN=0486404455&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'Tractatus Logico-Philosophicus, by Ludwig Wittgenstein (125 p.)',
+      }, 
+	  {
+        href: 'https://www.amazon.co.uk/dp/1405159286/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=35c18c5675359bbd405abfbf38598550&creativeASIN=1405159286&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'Philosophical Investigations, by Ludwig Wittgenstein (592 p.)',
       }, 
     ],
   },
@@ -812,6 +994,14 @@ const entries = [
       {
         href: 'https://www.independent.co.uk/arts-entertainment/books/features/existentialism-sarah-bakewell-jean-paul-sartre-simone-de-beauvoir-a6901501.html',
         linkText: 'Wiki',
+      }, 
+	  {
+        href: 'https://www.amazon.co.uk/dp/0671867806/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=b0099f68e2d25fcb5bd68aca0f893a53&creativeASIN=0671867806&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'Being and Nothingness, by Jean-Paul Sartre (928 p.)',
+      }, 
+	  {
+        href: 'https://www.amazon.co.uk/dp/1504054229/ref=as_li_tl?ie=UTF8&linkCode=gg2&linkId=4e8a5f3765c670b8e5884fb6337e8f7d&creativeASIN=1504054229&tag=philosophybre-20&creative=9325&camp=1789',
+        linkText: 'The Ethics of Ambiguity, by Simone de Beauvoir (192 p.)',
       }, 
     ],
   },

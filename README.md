@@ -75,7 +75,7 @@ Replace the images in the `src/img` folder to customize the page [favicon](https
 
 ## Deploy
 
-Once you run `npm run-script buld`, you will see a `_site` directory containing static HTML/CSS/JS files with your site content. You can now use any static site hosting to deploy these files!
+Once you run `npm run-script build`, you will see a `_site` directory containing static HTML/CSS/JS files with your site content. You can now use any static site hosting to deploy these files!
 
 ### GitHub pages
 

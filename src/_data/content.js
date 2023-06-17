@@ -57,7 +57,7 @@ const entries = [
       alt: 'Pythagoras',
       caption: 'Socrates',
     },
-    body: "Loved asking deep questions (to other people - mostly soldiers), until they would start contradicting themselves (socratic method). He claimed he was ignorant and knew nothing. Oracle of Deplhi called him the smartest of all - for he has admitted knowing nothing yet striving to learn more. Did not document his teachings. When caputred, he did not give into his principles and for that reason was executed. Was a firm believer that fundamental truths (like Pythagoras theorem) are intuitive and it is knowledge that everyone is familiar with, just lost in our consiousnes (dialogue with a barbarian).",
+    body: "Loved asking deep questions (to other people - mostly soldiers), until they would start contradicting themselves (socratic method). He claimed he was ignorant and knew nothing. Oracle of Delphi called him the smartest of all - for he has admitted knowing nothing yet striving to learn more. Did not document his teachings. When caputred, he did not give into his principles and for that reason was executed. Was a firm believer that fundamental truths (like Pythagoras theorem) are intuitive and it is knowledge that everyone is familiar with, just lost in our consiousnes (dialogue with a barbarian).",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Socrates',
@@ -78,7 +78,7 @@ const entries = [
       alt: 'Hippocrates',
       caption: 'Hippocrates',
     },
-    body: "Gods are everywhere and affect everything. Therefore, we shouldn't rule our a single phenomena. Things should be observed, felt, touched and empiracally evaluated.",
+    body: "Gods are everywhere and affect everything. Therefore, we shouldn't rule out a single phenomena. Things should be observed, felt, touched and empiracally evaluated.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Hippocrates',
@@ -99,7 +99,7 @@ const entries = [
       alt: 'Plato',
       caption: 'Plato',
     },
-    body: "A part of Socrates cirlce. The author of socratic dialogues (he claimed he marely documented Socrates, but he either lied or gave a good portion of himself). One of the first dramaturgs (tragedies). Acknowledged the duality of a person: a feeling, passionate person; a rational, thinking person. Passion is what motivates and sometimes it seems we do the unrational. Republic - tried to understand the civil morals, how a person ought to live. Allegory of a cave: darkness is ignorance and light is a phylosophical light through which world not always visible through our visible senses should be seen. If we had the power to turn invisible, no matter good or bad, we would all turn corrupt and do our own bidding.",
+    body: "A part of Socrates circle. The author of socratic dialogues (he claimed he marely documented Socrates, but he either lied or gave a good portion of himself). One of the first dramaturgs (tragedies). Acknowledged the duality of a person: a feeling, passionate person; a rational, thinking person. Passion is what motivates and sometimes it seems we do the unrational. Republic - tried to understand the civil morals, how a person ought to live, what it means and takes to be a good person, lead. Allegory of a cave: 'imagine being changed in a cave. In front of you - a wall. Behind you - light. As different objects pass by the light - you see a reflection - a shadow on the wall. It's not the reality itself - it's just a distortion of it'. If we had the power to turn invisible, no matter good or bad, we would all turn corrupt and do our own bidding.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Plato',
@@ -136,7 +136,7 @@ const entries = [
       alt: 'Aristotle',
       caption: 'Aristotle',
     },
-    body: "Father of a of most nature sciences. Formulated a definition of logic. To truly understand things one should touch them, feel them. Experience is important. The true joy of life is self-development. 3 kinds of friendships: for pleasure, for utility - the thrid one - the most important one - a friendship were each party wants good for the other without wanting anything for themselves in return. Virtues are a middlepoint between extreme deficiency and excess.",
+    body: "Father of most of nature sciences. Formulated a definition of logic. To truly understand things one should touch them, feel them. Experience is important. The true joy of life is self-development. 3 kinds of friendships: for pleasure, for utility - the third one - the most important one - a friendship where each party wants good for the other without wanting anything for themselves in return - Philis Eudimonia. Virtues are a middlepoint between extreme deficiency and excess.",
 	links: [
       {
         href: 'https://en.wikipedia.org/wiki/Aristotle',
@@ -194,7 +194,7 @@ const entries = [
       alt: 'Epicurus',
       caption: 'Epicurus',
     },
-    body: "The garden of life. Human growing like a flower, blooming when self-developing. The simplicity of life, self-sufficiency. Happiness is the absence of pain. He gathered people into his house and taught the beauty of life, the need of tending to your environment and oneself. Unlike stoics, he promoted living in a small group of people in a garden, using the 2nd friendship - utility.",
+    body: "The garden of life. Human growing like a flower, blooming when self-developing. The simplicity of life, self-sufficiency. Happiness is the absence of pain. He gathered people into his house and taught the beauty of life, the need of tending to your environment and oneself. Unlike stoics, he promoted living in a small group of people in a garden, using the 2nd friendship - utility. Enjoying the moment originates from him. Epicuriasm is sometimes associated (falsely) with lavish lifestyles, excessive drinking and other pleasures which are pleasant, but not long term.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Epicurus',
@@ -252,11 +252,15 @@ const entries = [
       alt: 'Saint Augustine',
       caption: 'Saint Augustine',
     },
-    body: "As most stoics, encouraged the love for life. Tried to answer the question: 'If god is all-mighty and all-good, why does so many bad things happen to us?'. He gave multiple answers (over time), but the one that stuck to most cultures is the eternal fight between god and evil. Good is all-good and all-powerful, but the equivalent opposite force exists - therefore balance.",
+    body: "Initially, had a very active and rebelious childhoood. Converted to Christianity only in his 30s. As most stoics, encouraged the love for life. Tried to answer the question: 'If god is all-mighty and all-good, why does so many bad things happen to us?'. He gave multiple answers (over time), but the one that stuck to most cultures is the eternal fight between god and evil. Good is all-good and all-powerful, but the equivalent opposite force exists - therefore balance.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Augustine_of_Hippo',
         linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.co.uk/Augustine-Hippo-Biography-New-Epilogue/dp/0520227573',
+        linkText: 'Augustine of Hippo: A Biography by Peter Brown (562p.)',
       },
     ],
   },
@@ -315,7 +319,7 @@ const entries = [
       alt: 'Niccolò Machiavelli',
       caption: 'Thomas Aquinas',
     },
-    body: "Started a rational analysis of religion - scholasticism. Didn't like other filosophers, however had great admiration for Aristotle. Called him The Philosopher. He said that to reach salvation, on top of being virtous, one should also be generous. He claimed that laws should be modeled based on ideals that people ought to follow. Thomas Aquinas stated that the evidence of freedom of will are punishments. If there was no freedom of will, then punishments would be vain, unjustifiable.",
+    body: "Started a rational analysis of religion - scholasticism. Didn't like other philosophers, however had great admiration for Aristotle. Called him The Philosopher. He said that to reach salvation, on top of being virtious, one should also be generous. He claimed that laws should be modeled based on ideals that people ought to follow. Thomas Aquinas stated that the evidence of freedom of will are punishments. If there was no freedom of will, then punishments would be vain, unjustifiable.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Thomas_Aquinas',
@@ -327,6 +331,31 @@ const entries = [
       },
     ],
   },
+  {
+    id: 'Dante Alighieri',
+    categories: ['Religion', 'Ethics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1265-01-01',
+    title: 'Dante Alighieri',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg',
+      alt: 'Dante Alighieri',
+      caption: 'Dante Alighieri',
+    },
+    body: "His greatest work - the Divine Comedy - is one of the masterpieces of the western literature. There, through 3 books within an epic poem he explores a man's journey through Hell (Inferno), Purgatory and Heaven.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Dante_Alighieri',
+        linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/Divine-Comedy-Inferno-Purgatorio-Paradiso/dp/0451208633/ref=sr_1_1?crid=1DDES3D3XCQ75&keywords=Divine+Comedy&qid=1687011410&s=books&sprefix=divine+comedy%2Cstripbooks-intl-ship%2C288&sr=1-1',
+        linkText: 'The Divine Comedy (The Inferno, The Purgatorio, and The Paradiso) by Dante Alighieri (928 p.)',
+      },
+    ],
+  }, 
   {
     id: 'NiccoloMachiavelli',
     categories: ['Politics'],
@@ -386,7 +415,7 @@ const entries = [
       alt: 'Francis Bacon',
       caption: 'Francis Bacon',
     },
-    body: "Essentially started the scientific method which strives to prove theories through experiments. A failed experiment is all that is needed to disprove a theory. Without experience - nothing can be known. Two modes of aquiring knowledge: reasoning, experience. If you  wish a guide in the searhc of knowledge - let that guide be experience. Choose the light of experience, not the authority of texts. 'Like falling in love with a picture, words are simply representative of thing in the external world. If you were interested in the external world, venture into that world, don't just talk about it.' Wanted to create a science for the human mind (first ideas of psychology).",
+    body: "Essentially started the scientific method which strives to prove theories through experiments. A failed experiment is all that is needed to disprove a theory. Without experience - nothing can be known. Two modes of aquiring knowledge: reasoning, experience. If you  wish a guide in the search of knowledge - let that guide be experience. Choose the light of experience, not the authority of texts. 'Like falling in love with a picture, words are simply representative of thing in the external world. If you were interested in the external world, venture into that world, don't just talk about it.' Wanted to create a science for the human mind (first ideas of psychology).",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Francis_Bacon',
@@ -411,7 +440,7 @@ const entries = [
       alt: 'René Descartes',
       caption: 'René Descartes',
     },
-    body: "You cannot be sure whether you experience a dream or reality. The only thing you can be sure of is of your own thoughts - 'I think therefore I am' (cogito ergo sum). Dualism of mind and body (mind doesn't have to be contained within a conventional body). Invented Cartesian coordinate system. 'Discource of method: 1. Accept nothing is ture. 2. Divide problem into as many steps as we can. 3. Work from the smallest step of a solution to a larger one. You reach the overall solution by solving fundamental problems. 4. Test it. Rather than finding a proof - search for exceptions to the rule.'",
+    body: "A daydreamer, a mercenary - a true adventurer. Wrote a treatise on fencing. Said: you cannot be sure whether you experience a dream or reality. The only thing you can be sure of is of your own thoughts - 'I think therefore I am' (cogito ergo sum). Dualism of mind and body (mind doesn't have to be contained within a conventional body). Invented Cartesian coordinate system. 'Discource of method: 1. Accept nothing is ture. 2. Divide problem into as many steps as we can. 3. Work from the smallest step of a solution to a larger one. You reach the overall solution by solving fundamental problems. 4. Test it. Rather than finding a proof - search for exceptions to the rule.'",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes',
@@ -448,7 +477,7 @@ const entries = [
       alt: 'Blaise Pascal',
       caption: 'Blaise Pascal',
     },
-    body: "You cannot be sure of anything. He was made significant contributions in probability and set theory, fluid dynamics. He could never be sure whether God existed, but that uncertainty was only a logical motivator for him to be invested in religion: if God actually exists, it's not worth gambling a single lifetime for an eternity of hell that could await. After all, even if you are invested in God, you don't lose almost anything (as you are a decent person).",
+    body: "You cannot be sure of anything. He made significant contributions in probability and set theory, fluid dynamics. He could never be sure whether God existed, but that uncertainty was only a logical motivator for him to be invested in religion: if God actually exists, it's not worth gambling a single lifetime for an eternity of hell that could await. After all, even if you are invested in God, you don't lose almost anything (as you are a decent person).",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Blaise_Pascal',
@@ -498,7 +527,7 @@ const entries = [
       alt: 'Isaac Newton',
       caption: 'Isaac Newton',
     },
-    body: "Model an abstract idea into most simple, small, basic concept. For example, instead of planets, think of dots. This is a so called idealised model or a hypothesis. Improved scientific method by striving to come up with general pinrciples that apply in practrice and at all levels without exceptions. Deductive reasoning: 1. premis. 2. logical justification. 3. conclusions. 4. experimenting. Lifelong scholastic. Invented calculus, defined a general law of relativity. Was considered the last alchemist.",
+    body: "Model an abstract idea into most simple, small, basic concept. For example, instead of planets, think of dots. This is a so called idealised model or a hypothesis. Improved scientific method by striving to come up with general principles that apply in practice and at all levels without exceptions. Deductive reasoning: 1. premise. 2. logical justification. 3. conclusions. 4. experimenting. Lifelong scholastic. Invented calculus, defined a general law of relativity. Was considered the last alchemist.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Isaac_Newton',
@@ -519,7 +548,7 @@ const entries = [
       alt: 'John Locke',
       caption: 'John Locke',
     },
-    body: "A good friend of Newton, further pushed the philosophy of science. Some thoughts can eixist without invoking experiences: intuitive (for example a contradiction: something cannot be and not be) or demonstrative (abstract proofs). We start with nothing and get everything through experience. You can either sense and experience an object or just experience it. Personal identity is a collection of experiences. Simple fundamental parts make a greater whole. Each object can be examined with a primary quality -  direct experiences (hardness, shape, weight) and secondary quality - subjective experiences, which will be different depending on the observer (color, tase, smell, texture)",
+    body: "A good friend of Newton, further pushed the philosophy of science. Some thoughts can eixist without invoking experiences: intuitive (for example a contradiction: something can be and not be) or demonstrative (abstract proofs). We start with nothing and get everything through experience. You can either sense and experience an object or just experience it. Personal identity is a collection of experiences. Simple fundamental parts make a greater whole. Each object can be examined with a primary quality -  direct experiences (hardness, shape, weight) and secondary quality - subjective experiences, which will be different depending on the observer (color, tase, smell, texture). The difference between a thought and experience is that experience also includes a concept of space and time.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/John_Locke',
@@ -615,6 +644,31 @@ const entries = [
     ],
   },
   {
+    id: 'ThomasReid',
+    categories: ['Pragmatism', 'Ethics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1710-04-26',
+    title: 'Thomas Reid',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/ThomasReid.jpg/220px-ThomasReid.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/ThomasReid.jpg/220px-ThomasReid.jpg',
+      alt: 'Thomas Reid',
+      caption: 'Thomas Reid',
+    },
+    body: "Father of common sense philosophy. Founder of the Wise Club - where people pondered philosophy, planned and wrote papers, improved each other. An inquiry to human mind is a great treatise criticising philosophy full of good rationale. Principle of a common sense - things we take for granted in life., There are principles and rules unconditionable, not requiring an opinion or proof. For example, catterpillar crawls a hundred leafs until he eats one fit for its diet.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Thomas_Reid',
+        linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/Inquiry-Human-Principles-Common-Sense/dp/0271020717/ref=sr_1_1?crid=1NDQPP7AKBDCK&keywords=Inquiry+to+human+mind&qid=1687012059&s=books&sprefix=inquiry+to+human+mi%2Cstripbooks-intl-ship%2C308&sr=1-1',
+        linkText: 'An Inquiry into the Human Mind on the Principles of Common Sense: A Critical Edition by Thomas Reid (372 p.)',
+      }
+    ],
+  },
+  {
     id: 'DavidHume',
     categories: ['Utilitariasm'],
     color: 'green',
@@ -677,7 +731,7 @@ const entries = [
       alt: 'Immanuel Kant',
       caption: 'Immanuel Kant',
     },
-    body: "Father of metaphysics. Synthetical apriori knowledge - things which don't have to be accurate, not real, but widely spread, accepted by public and that is enough. Spent a significant amount of timeo on ethics. According to him, people should act morally regardless of their emotions. If your morale is driven by emotions and not reason - you are being immoral. Even if you did something that would be interpreted as moral, if that was done as a reaction, rather than a consious thought - then it is not a moral action. You cannot ever lie, not even say a white lie. If everyone did white lies all the time - world would decend into chaos.",
+    body: "Father of metaphysics. Synthetical apriori knowledge - things which don't have to be accurate, not real, but widely spread, accepted by public and that is enough. Spent a significant amount of time on ethics. According to him, people should act morally regardless of their emotions. If your morale is driven by emotions and not reason - you are being immoral. Even if you did something that would be interpreted as moral, if that was done as a reaction, rather than a consious thought - then it is not a moral action. You cannot ever lie, not even say a white lie. If everyone did white lies all the time - world would decend into chaos. The only exception is when one white lie would cause more harm to someone else - then it's okay to say it. This is Deanthological moral theory - unconditional morals. Tried to answer 3 major questions: what should one know? what should you do? what should you hope for?",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Immanuel_Kant',
@@ -727,6 +781,31 @@ const entries = [
     ],
   }, 
   {
+    id: 'JohannWolfgangvonGoethe',
+    categories: ['Romantism', 'Empiricism', 'Ethics'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1749-08-28',
+    title: 'Johann Wolfgang von Goethe',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/220px-Goethe_%28Stieler_1828%29.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/220px-Goethe_%28Stieler_1828%29.jpg',
+      alt: 'Johann Wolfgang von Goethe',
+      caption: 'Johann Wolfgang von Goethe',
+    },
+    body: "Romantism writer and scientist, Goethe would write about scientific subjects through a prism of romantism. For example, he wrote about colors from the point of view of what a human feels, rather the newtonian approach - the physics of it. Wrote about human desires and what it means to be happy.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Jeremy_Bentham',
+        linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/Faust-Johann-Wolfgang-Von-Goethe/dp/1503262146',
+        linkText: 'Faust by Johann Wolfgang von Goethe (158 p.)',
+      },
+    ],
+  }, 
+  {
     id: 'GeorgWilhelmFriedrichHegel',
     categories: ['Politics'],
     color: 'green',
@@ -739,7 +818,7 @@ const entries = [
       alt: 'Georg Wilhelm Friedrich Hegel',
       caption: 'Georg Wilhelm Friedrich Hegel',
     },
-    body: "A cryptic writer, whose work were hardly understood by others, even himself. He said that the world is uncontrollably moving through breaththroughs which we cannot understand until they happen. He talked about the freedom of will, fredom of speech. The freedom was not only of an individual, but of a society as a whole. Each breakthrough expands the way of thinking (of both) and gives more freedom (to both).",
+    body: "A cryptic writer, whose works were hardly understood by others, even himself. He said that the world is uncontrollably moving through breaththroughs which we cannot understand until they happen. He talked about the freedom of will, freedom of speech. The freedom was not only of an individual, but of a society as a whole. Each breakthrough expands the way of thinking (of both) and gives more freedom (to both). Thesis, antithesis, synthesis. Progress through conflict. A thougtless application of thought itself may confuse us into believing we have witnessed reality as such, when in fact we have reviewed a product of a method.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel',
@@ -798,27 +877,6 @@ const entries = [
     ],
   },
   {
-    id: 'KarlMarx',
-    categories: ['Politics'],
-    color: 'green',
-    faicon: 'feather-pointed',
-    datetime: '1818-05-05',
-    title: 'Karl Marx',
-    image: {
-      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/220px-Karl_Marx_001.jpg',
-      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/220px-Karl_Marx_001.jpg',
-      alt: 'John Stuart Mill',
-      caption: 'Karl Marx',
-    },
-    body: "A neverending fight between the working class and bosses. Communism. Perfect society rulled by the working class.",
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Karl_Marx',
-        linkText: 'Wiki',
-      }, 
-    ],
-  },
-  {
     id: 'WilliamJames',
     categories: ['Metaphysics', 'Scepticism', 'Pragmatism'],
     color: 'green',
@@ -831,7 +889,7 @@ const entries = [
       alt: 'William James',
       caption: 'William James',
     },
-    body: "Philosophical questions are meaningless, unless they in itself bring practical value. Pragmatic philosophy. Words are an innacurate representation of the world. The world is actually expressed through people. Truth is value (gain).",
+    body: "Philosophical questions are meaningless, unless they in itself bring practical value. Pragmatic philosophy. Words are an innacurate representation of the world. The world is actually expressed through people. Truth is value (gain). Radically empirical, meaning that even preminisions and other things that science cannot explain shouldn't be rejected, rather we should look for a new science to explain it. We cherry pick things we want to experience.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/William_James',
@@ -860,7 +918,7 @@ const entries = [
       alt: 'Friedrich Nietzsche',
       caption: 'Friedrich Nietzsche',
     },
-    body: "Pessimistic. There is something beyond good and evil and humanity should strive for it to reach the next stage. Superhuman idea - a human who could go beyond morale. Went mad at the end of his life.",
+    body: "Pessimistic. There is something beyond good and evil and humanity should strive for it to reach the next stage. Superhuman idea - a human who could go beyond morale. Went mad at the end of his life. Was an emphatic person - there is one documented event where Nietzsche came to a mistreated horse and started kissing and soothing it. Jesus was just a religious rehearsal to put people in their places. Compared Jesus to Dostoevsky's Idiot.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Friedrich_Nietzsche',
@@ -893,7 +951,7 @@ const entries = [
       alt: 'Sigmund Freud',
       caption: 'Sigmund Freud',
     },
-    body: "We often don't do what we want. Our true desires lie deep in our subconscious - for example, in our dreams or in failures (failures he said may be done maybe on purpose without realising that). Our true desires are revealed by simply letting one talk.",
+    body: "We often don't do what we want. Our true desires lie deep in our subconscious - for example, in our dreams or in failures (failures he said may be done on purpose without realising that). Our true desires are revealed by simply letting one talk (psychotherapy). Parents and other people often tells us this is good, this is bad. Then they add a because where it is usually a scripture or custom or law. That's just the surface. What actually is going on - institutions and practices are created for the society to promote marriage and heterosexuality for the purpose of reproduction - survival theory. Froid also talked about Edipus complex and for this and latter theories he was not very liked by his contemporaries.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Sigmund_Freud',
@@ -939,7 +997,7 @@ const entries = [
       alt: 'Ludwig Wittgenstein',
       caption: 'Ludwig Wittgenstein',
     },
-    body: "Philosophical books are useless. Language deceives us - people say what they don't mean. TODO",
+    body: "Philosophical books are useless. Language deceives us - people say what they don't mean. We're like flies in a bottle - bottle being philosophy.",
     links: [
       {
         href: 'https://lt.wikipedia.org/wiki/Ludwig_Wittgenstein',
@@ -968,7 +1026,7 @@ const entries = [
       alt: 'Karl Popper',
       caption: 'Karl Popper',
     },
-    body: "Is a man guilty, if they just followed the orders? For example a nazzi, who was responsible of scheduling trains on time - was he guilty of doing a good job and scheduling jews killings? She would said - not guilty, because if circumstances were different - that person could even be a good person.",
+    body: "Scientists learn by realising a particulkar theory is wrong. One wrong observation proves the theory wrong. 'The greatest philospher of sicence'.",
     links: [
       {
         href: 'https://lt.wikipedia.org/wiki/Karl_Popper',

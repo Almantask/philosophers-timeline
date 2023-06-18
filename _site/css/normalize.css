@@ -349,3 +349,31 @@ template {
 [hidden] {
   display: none;
 }
+
+/* CSS styles for search */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.search-container input[type="text"] {
+  flex-grow: 1;
+  min-width: 100px; /* Set the initial minimum width */
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header.page-header {
+  padding: 20px !important;
+}

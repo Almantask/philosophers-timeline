@@ -76,16 +76,63 @@ function reflowEntries() {
   }
 }
 
+function limitInputWidth(event) {
+  const input = event.target;
+  const container = input.parentElement;
+  const containerWidth = input.offsetWidth * 0.95;
+  const inputText = input.value;
+
+  const tempElement = document.createElement('span');
+  tempElement.style.visibility = 'hidden';
+  tempElement.style.whiteSpace = 'nowrap';
+  tempElement.style.fontSize = window.getComputedStyle(input).fontSize;
+  tempElement.textContent = inputText;
+
+  document.body.appendChild(tempElement);
+  const textWidth = tempElement.getBoundingClientRect().width;
+  document.body.removeChild(tempElement);
+
+  if (textWidth >= containerWidth) {
+    const trimmedText = truncateTextToFit(inputText, containerWidth);
+    input.value = trimmedText;
+  }
+}
+
+function truncateTextToFit(text, maxWidth) {
+  let trimmedText = text;
+  while (trimmedText.length > 0) {
+    const truncatedText = trimmedText.slice(0, -1);
+    if (truncatedText === '') {
+      return '';
+    }
+    const tempElement = document.createElement('span');
+    tempElement.style.visibility = 'hidden';
+    tempElement.style.whiteSpace = 'nowrap';
+    tempElement.style.fontSize = 'inherit';
+    tempElement.textContent = truncatedText;
+
+    document.body.appendChild(tempElement);
+    const truncatedWidth = tempElement.getBoundingClientRect().width;
+    document.body.removeChild(tempElement);
+
+    if (truncatedWidth <= maxWidth) {
+      return truncatedText;
+    }
+    trimmedText = truncatedText;
+  }
+  return '';
+}
+
 function onload() {
   /* We have JS! */
   var root = document.documentElement;
   root.classList.remove('no-js');
 
-  /* Listen for filter changes */
-  document.querySelectorAll('input[type="checkbox"][name="filter"]').forEach(function (box) {
-    box.addEventListener('click', hideUnchecked);
-  });
-  document.querySelector('input[type="checkbox"]#all').addEventListener('click', checkAll);
+  // /* Listen for filter changes */
+  // document.querySelectorAll('input[type="checkbox"][name="filter"]').forEach(function (box) {
+    // box.addEventListener('click', hideUnchecked);
+  // });
+  // document.querySelector('input[type="checkbox"]#all').addEventListener('click', checkAll);
 
   /* Flow entries */
   reflowEntries();

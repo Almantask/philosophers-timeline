@@ -22,7 +22,7 @@
         <% content.entries.forEach(function(entry){ %>
         <div
           class="timeline-entry"
-          data-category="<%= entry.categoriesString %>"
+          data-full="<%- utilities.entryToString(entry) %>"
           aria-hidden="false"
         >
           <div class="timeline-icon <%- entry.color || 'grey' %>" title="<%= entry.faicon %>">

@@ -139,6 +139,28 @@ function onload() {
 
   // Clean up
   document.removeEventListener('DOMContentLoaded', onload);
+  
+  // Get the search input element
+	const searchInput = document.getElementById('search');
+
+	// Event listener for the 'input' event on the search input
+	searchInput.addEventListener('input', function(event) {
+	  const searchText = event.target.value.toLowerCase();
+	  searchContent(searchText);
+	});
+}
+
+function searchContent(searchText) {
+  var entries = document.getElementsByClassName('timeline-entry');
+  for (var i = 0; i < entries.length; i++) {
+    var entry = entries[i];
+	var entryContent = entry.dataset.full.toLowerCase();
+    if (entryContent.includes(searchText.toLowerCase())) {
+      show(entry);
+    } else {
+      hide(entry);
+    }
+  }
 }
 
 if (document.readyState != 'loading') {

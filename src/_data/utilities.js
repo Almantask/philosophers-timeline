@@ -8,6 +8,12 @@ const sentenceCase = function (str) {
   return str[0].toUpperCase() + str.slice(1).toLowerCase();
 };
 
+const entryToString = function(entry){
+	const linksString = entry.links.map(link => link.linkText).join(', ');
+	const categoriesString = entry.categories.join(', ');
+	return `${entry.body} ${entry.title} ${linksString} ${categoriesString}`;
+}
+
 const humanizeDate = function (datetime, date) {
   const dateParts = datetime.split('-');
   var year;
@@ -39,6 +45,7 @@ const isWrappedInParagraphTags = function (html) {
 };
 
 module.exports = {
+  entryToString,
   sentenceCase,
   humanizeDate,
   isWrappedInParagraphTags,

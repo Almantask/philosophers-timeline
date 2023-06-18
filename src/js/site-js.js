@@ -127,14 +127,6 @@ function onload() {
   /* We have JS! */
   var root = document.documentElement;
   root.classList.remove('no-js');
-
-  // /* Listen for filter changes */
-  // document.querySelectorAll('input[type="checkbox"][name="filter"]').forEach(function (box) {
-    // box.addEventListener('click', hideUnchecked);
-  // });
-  // document.querySelector('input[type="checkbox"]#all').addEventListener('click', checkAll);
-
-  /* Flow entries */
   reflowEntries();
 
   // Clean up
@@ -161,6 +153,7 @@ function searchContent(searchText) {
       hide(entry);
     }
   }
+  reflowEntries();
 }
 
 if (document.readyState != 'loading') {

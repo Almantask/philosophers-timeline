@@ -144,6 +144,50 @@ function onload() {
 
 function searchContent(searchText) {
   var entries = document.getElementsByClassName('timeline-entry');
+  if(searchText.startsWith("-") || startsWithNumber(searchText)){
+	  searchOnDate(entries, searchText);
+  }
+  else{
+	searchOnContent(entries, searchText);
+  }
+  reflowEntries();
+}
+
+function searchOnDate(entries, dateRange){
+	var from = 0;
+	if(dateRange.length == 1) return;
+	var startsNegative = false;
+	if(dateRange.startsWith("-")){
+		dateRange = dateRange.slice(1);
+		startsNegative = true;
+	}
+	
+	var inBetweenYears = dateRange.split('-');
+	
+	from = parseInt(inBetweenYears[0]);
+	if(startsNegative){
+		from = -from
+	}
+	
+	var to = 9999;
+	if(inBetweenYears.length == 2){
+		if(inBetweenYears[1] != ""){
+			to = parseInt(inBetweenYears[1]);
+		}
+	}
+	
+	for (var i = 0; i < entries.length; i++) {
+    var entry = entries[i];
+	var year = getYear(entry.dataset.datetime);
+    if (year >= from && year <= to) {
+      show(entry);
+    } else {
+      hide(entry);
+    }
+  }
+}
+
+function searchOnContent(entries, searchText){
   for (var i = 0; i < entries.length; i++) {
     var entry = entries[i];
 	var entryContent = entry.dataset.full.toLowerCase();
@@ -153,7 +197,22 @@ function searchContent(searchText) {
       hide(entry);
     }
   }
-  reflowEntries();
+}
+
+function startsWithNumber(str) {
+  return /^\d/.test(str);
+}
+
+const getYear = function (date){
+  const dateParts = date.split('-');
+  var year;
+  
+  if(date.startsWith('-')){
+	  return -parseInt(dateParts[1]);
+  }
+  else{
+	  return parseInt(dateParts[0]);
+  }
 }
 
 if (document.readyState != 'loading') {

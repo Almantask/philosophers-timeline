@@ -23,6 +23,7 @@
         <div
           class="timeline-entry"
           data-full="<%- utilities.entryToString(entry) %>"
+		  data-datetime="<%= entry.datetime %>"
           aria-hidden="false"
         >
           <div class="timeline-icon <%- entry.color || 'grey' %>" title="<%= entry.faicon %>">

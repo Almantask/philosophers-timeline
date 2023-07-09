@@ -4,7 +4,7 @@ const footer = '';
 const entries = [
   {
     id: 'Zarathustra',
-    categories: ['Abstracionism', 'East', 'Asia'],
+    categories: ['Religion', 'Ethics', 'East', 'Asia'],
     color: 'green',
     faicon: 'dove',
     datetime: '-1000',
@@ -24,8 +24,29 @@ const entries = [
     ],
   },
   {
+    id: 'UddalakaAruni',
+    categories: ['Metaphysics', 'Identity', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-800',
+    title: 'Uddalaka Aruni',
+    image: {
+      link: 'https://ssubbanna.files.wordpress.com/2012/10/angirasa20shaunaka20samvada.jpg',
+      src: 'https://ssubbanna.files.wordpress.com/2012/10/angirasa20shaunaka20samvada.jpg',
+      alt: 'Uddalaka Aruni',
+      caption: 'Uddalaka Aruni',
+    },
+    body: "Life is the search for oneself - Atman. All else that remains is the vastness of the universe - Brahman. Universe is not created by a god, but made from atomic particles. He would travel with his son and tech him. One such story: cut a fruit - what do you see? - seeds. Cut the seed - what do you see? - nothing. No, what you see is the essence of life - brahman. So is human - if you cut human to small pieces enough - you will eventually reach to the essence of life as well. Therefore, human is also universe - Atman is Brahman. Monoteism.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Zoroaster',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'ThalesofMiletus',
-    categories: ['Abstracionism', 'East', 'Asia'],
+    categories: ['Abstracionism', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-1000',

@@ -3,6 +3,48 @@ const header = 'Philosophers of the ages';
 const footer = '';
 const entries = [
   {
+    id: 'Zarathustra',
+    categories: ['Abstracionism', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-1000',
+    title: 'Zarathustra',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Zartosht_30salegee.jpg/220px-Zartosht_30salegee.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Zartosht_30salegee.jpg/220px-Zartosht_30salegee.jpg',
+      alt: 'Zarathustra',
+      caption: 'Zarathustra',
+    },
+    body: "It's up to an invidividual to choose what is right (light - aša) and wrong (darkness - druj). Light isn't good and darkness isn't bad - it's just 2 opposites. Desire in itself is not evil - it's incentive and motivator for life. Founder of one of the oldest world religions that exists to day - Zoroastrianism (good, evil, heaven, hell, angels, demons, judgment). They worship fire and one such everlasting flame is Atash Behram - which is several centuries old.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Zoroaster',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'ThalesofMiletus',
+    categories: ['Abstracionism', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-1000',
+    title: 'Thales of Miletus',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Illustrerad_Verldshistoria_band_I_Ill_107.jpg/220px-Illustrerad_Verldshistoria_band_I_Ill_107.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Illustrerad_Verldshistoria_band_I_Ill_107.jpg/220px-Illustrerad_Verldshistoria_band_I_Ill_107.jpg',
+      alt: 'Thales of Miletus',
+      caption: 'Thales of Miletus',
+    },
+    body: "Considered to be the first (western) philosopher and mathematician. Water is the essence of life. Water can change form: be solid, fluid or gass. Introduced geometry to Greece. God is the oldest of all things, prexisting them. The world is such a beautiful and perfect place because of God.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Thales_of_Miletus',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'Pythagoras',
     categories: ['Abstracionism', 'West', 'Europe'],
     color: 'green',

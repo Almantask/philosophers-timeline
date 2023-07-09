@@ -4,7 +4,7 @@ const footer = '';
 const entries = [
   {
     id: 'Pythagoras',
-    categories: ['Abstracionism'],
+    categories: ['Abstracionism', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-570-01-01',
@@ -25,7 +25,7 @@ const entries = [
   },
   {
     id: 'Herodotus',
-    categories: ['Abstracionism'],
+    categories: ['Abstracionism', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-484-01-01',
@@ -46,7 +46,7 @@ const entries = [
   },
   {
     id: 'Socrates',
-    categories: ['Stoicism'],
+    categories: ['Stoicism', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-470-01-01',
@@ -67,7 +67,7 @@ const entries = [
   },
   {
     id: 'Hippocrates',
-    categories: ['Religion'],
+    categories: ['Religion', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-460-01-01',
@@ -88,7 +88,7 @@ const entries = [
   },
   {
     id: 'Plato',
-    categories: ['Abstracionism','Stoicism', 'Politics'],
+    categories: ['Abstracionism','Stoicism', 'Politics', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-428-01-01',
@@ -125,7 +125,7 @@ const entries = [
   },
     {
     id: 'Aristotle',
-    categories: ['Empiricism', 'Stoicism'],
+    categories: ['Empiricism', 'Stoicism', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-384-01-01',
@@ -162,7 +162,7 @@ const entries = [
   },
     {
     id: 'Pyrrho',
-    categories: ['Scepticism'],
+    categories: ['Scepticism', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-365-01-01',
@@ -183,7 +183,7 @@ const entries = [
   },
   {
     id: 'Epicurus',
-    categories: ['Empiricism'],
+    categories: ['Empiricism', 'West', 'Europe'],
     color: 'green',
     faicon: 'dove',
     datetime: '-270-01-01',
@@ -208,7 +208,7 @@ const entries = [
   },
   {
     id: 'Seneca',
-    categories: ['Stoicism', 'Politics'],
+    categories: ['Stoicism', 'Politics', 'West', 'Europe'],
     color: 'green',
     faicon: 'landmark',
     datetime: '65-01-01',
@@ -241,7 +241,7 @@ const entries = [
   },
   {
     id: 'SaintAugustine',
-    categories: ['Stoicism', 'Religion'],
+    categories: ['Stoicism', 'Religion', 'West', 'Europe'],
     color: 'green',
     faicon: 'landmark',
     datetime: '354-11-13',
@@ -266,7 +266,7 @@ const entries = [
   },
   {
     id: 'Boethius',
-    categories: ['Stoicism'],
+    categories: ['Stoicism', 'West', 'Europe'],
     color: 'green',
     faicon: 'landmark',
     datetime: '480-11-13',
@@ -287,7 +287,7 @@ const entries = [
   },
   {
     id: 'SaintAnselmofCanterbury',
-    categories: ['Religion'],
+    categories: ['Religion', 'West', 'Europe'],
     color: 'green',
     faicon: 'pray',
     datetime: '1034-11-13',
@@ -308,7 +308,7 @@ const entries = [
   },
   {
     id: 'ThomasAquinas',
-    categories: ['Religion'],
+    categories: ['Religion', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1225-03-07',
@@ -333,7 +333,7 @@ const entries = [
   },
   {
     id: 'Dante Alighieri',
-    categories: ['Religion', 'Ethics'],
+    categories: ['Religion', 'Ethics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1265-01-01',
@@ -358,7 +358,7 @@ const entries = [
   }, 
   {
     id: 'NiccoloMachiavelli',
-    categories: ['Politics'],
+    categories: ['Politics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1469-11-13',
@@ -383,7 +383,7 @@ const entries = [
   },
   {
     id: 'ThomasHobbes',
-    categories: ['Politics'],
+    categories: ['Politics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1558-04-5',
@@ -404,7 +404,7 @@ const entries = [
   },
   {
     id: 'FrancisBacon',
-    categories: ['Empiricism'],
+    categories: ['Empiricism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1561-01-22',
@@ -429,7 +429,7 @@ const entries = [
   },
   {
     id: 'Descartes',
-    categories: ['Metaphysics', 'Scepticism', 'Empiricism'],
+    categories: ['Metaphysics', 'Scepticism', 'Empiricism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1596-03-31',
@@ -487,7 +487,7 @@ const entries = [
   },
   {
     id: 'Spinoza',
-    categories: ['Stoicism', 'Metaphysics'],
+    categories: ['Stoicism', 'Metaphysics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1632-11-24',
@@ -516,7 +516,7 @@ const entries = [
   },
   {
     id: 'IsaacNewton',
-    categories: ['Empiricism'],
+    categories: ['Empiricism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1643-01-04',
@@ -537,7 +537,7 @@ const entries = [
   },
   {
     id: 'JohnLocke',
-    categories: ['Empiricism', 'Materialism'],
+    categories: ['Empiricism', 'Materialism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1632-08-29',
@@ -570,7 +570,7 @@ const entries = [
   },
   {
     id: 'GottfriedWilhelmLeibniz',
-    categories: ['Materialism'],
+    categories: ['Materialism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1646-07-01',
@@ -595,7 +595,7 @@ const entries = [
   },
   {
     id: 'GeorgeBerkeley',
-    categories: ['Materialism'],
+    categories: ['Materialism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1646-07-01',
@@ -616,7 +616,7 @@ const entries = [
   },
   {
     id: 'Voltaire',
-    categories: ['Pragmatism'],
+    categories: ['Pragmatism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1694-11-21',
@@ -645,7 +645,7 @@ const entries = [
   },
   {
     id: 'ThomasReid',
-    categories: ['Pragmatism', 'Ethics'],
+    categories: ['Pragmatism', 'Ethics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1710-04-26',
@@ -670,7 +670,7 @@ const entries = [
   },
   {
     id: 'DavidHume',
-    categories: ['Utilitariasm'],
+    categories: ['Utilitariasm', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1711-05-07',
@@ -699,7 +699,7 @@ const entries = [
   },
   {
     id: 'JeanJacquesRousseau',
-    categories: ['Politics'],
+    categories: ['Politics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1712-06-28',
@@ -720,7 +720,7 @@ const entries = [
   },
   {
     id: 'ImmanuelKant',
-    categories: ['Metaphysics'],
+    categories: ['Metaphysics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1724-04-22',
@@ -757,7 +757,7 @@ const entries = [
   },
   {
     id: 'JeremyBentham',
-    categories: ['Utilitariasm', 'Animal', 'Empiricism'],
+    categories: ['Utilitariasm', 'Animal', 'Empiricism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1748-01-01',
@@ -782,7 +782,7 @@ const entries = [
   }, 
   {
     id: 'JohannWolfgangvonGoethe',
-    categories: ['Romantism', 'Empiricism', 'Ethics'],
+    categories: ['Romantism', 'Empiricism', 'Ethics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1749-08-28',
@@ -807,7 +807,7 @@ const entries = [
   }, 
   {
     id: 'GeorgWilhelmFriedrichHegel',
-    categories: ['Politics'],
+    categories: ['Politics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1770-08-27',
@@ -828,7 +828,7 @@ const entries = [
   },
   {
     id: 'ArthurSchopenhauer',
-    categories: ['Pesimism', 'Metaphysics'],
+    categories: ['Pesimism', 'Metaphysics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1788-02-22',
@@ -849,7 +849,7 @@ const entries = [
   },
   {
     id: 'JohnStuartMill',
-    categories: ['Utilitariasm', 'Politics', 'Feminism'],
+    categories: ['Utilitariasm', 'Politics', 'Feminism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1806-01-01',
@@ -878,7 +878,7 @@ const entries = [
   },
   {
     id: 'WilliamJames',
-    categories: ['Metaphysics', 'Scepticism', 'Pragmatism'],
+    categories: ['Metaphysics', 'Scepticism', 'Pragmatism', 'West', 'USA'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1818-05-05',
@@ -907,7 +907,7 @@ const entries = [
   },
   {
     id: 'FriedrichNietzsche',
-    categories: ['Metaphysics', 'Scepticism', 'Pragmatism', 'Ethics'],
+    categories: ['Metaphysics', 'Scepticism', 'Pragmatism', 'Ethics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1844-10-15',
@@ -940,7 +940,7 @@ const entries = [
   },
   {
     id: 'SigmundFreud',
-    categories: ['Psychology'],
+    categories: ['Psychology', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1856-05-06',
@@ -961,7 +961,7 @@ const entries = [
   },
   {
     id: 'BertrandRussell',
-    categories: ['Metaphysics', 'Paradoxes'],
+    categories: ['Metaphysics', 'Paradoxes', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1872-05-18',
@@ -986,7 +986,7 @@ const entries = [
   },
   {
     id: 'LudwigWittgenstein',
-    categories: ['Metaphysics', 'Paradoxes'],
+    categories: ['Metaphysics', 'Paradoxes', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1889-04-26',
@@ -1015,7 +1015,7 @@ const entries = [
   },
   {
     id: 'KarlPopper',
-    categories: ['Existentialism'],
+    categories: ['Existentialism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1902-07-28',
@@ -1036,7 +1036,7 @@ const entries = [
   },
   {
     id: 'JeanPaulSartreAndSimoneBolivar',
-    categories: ['Existentialism'],
+    categories: ['Existentialism', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1905-04-15',
@@ -1065,7 +1065,7 @@ const entries = [
   },
   {
     id: 'HannahArendt',
-    categories: ['Ethics'],
+    categories: ['Ethics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1906-10-14',
@@ -1086,7 +1086,7 @@ const entries = [
   },
   {
     id: 'AJAyer',
-    categories: ['Ethics'],
+    categories: ['Ethics', 'West', 'Europe'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1910-10-29',
@@ -1107,7 +1107,7 @@ const entries = [
   },
   {
     id: 'Peter Singer',
-    categories: ['Ethics'],
+    categories: ['Ethics', 'West', 'Australia'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1971-02-21',
@@ -1128,7 +1128,7 @@ const entries = [
   },
   {
     id: 'JohnRawls',
-    categories: ['Politics'],
+    categories: ['Politics', 'West', 'USA'],
     color: 'green',
     faicon: 'feather-pointed',
     datetime: '1971-02-21',

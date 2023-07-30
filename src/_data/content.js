@@ -120,7 +120,7 @@ const entries = [
       alt: 'The Buddha',
       caption: 'The Buddha',
     },
-    body: "Buddha was born as a prince. It was prophesised that he will either grow to be a great king or a spiritual leader. Legend has it - that as a toddler he spoke to his mum and said he will bring great things. Buddha was protected from the outside world darkness by his father - the things he would see would tend to be nice and beautiful. However, once he went outside and saw the poverty, death. This shocked him, to an extent that he has decided to give away his fortune and titles and set off to mountains. Years later he came back - enlightened and sharing wisdom with everyone else. Buddhism is based on 4 logisms: '1. Life is suffering. 2. Suffering comes from desire. 3. Get rid of desire and you will get rid of the suffering. 4. Buddhism is the path to help you achieve that'. Buddhists promote a modest life where a person dedicates themselves to self-development, analysis of scriptures, seeking the enlightment. The biggest sin in buddhism is to be ignorant. There is even an alegory to illustrate that: '6 blind men were around an elephant. None of them knew what an elephant was, but were told to describe it. One touched the sturdy said and said - it's a wall. Other touched the trunk and said it's like a snake. Third touched the ear and said it's a fan. Fourth touched a leg and called it a pillar. Fifth touched the tail and said it's a rope. Last one touched the tusk and said it's a spear'. The moral of the story - that describing individual parts won't matter until you combine it all - into one big picture. Buddhism promotes acceptance, open mindness, love for all. There are several forms of budhism. Mahayana - focuses on compassion and delays enlightment until all around has reached it - it even says that within every one of us there is Buddha and buddhahood can be achieved by everyone. Zen - elightment is to see extraordinary in the ordinary - even when it's achieved, nothing changes and life goes on - you just have a different perspective on it. Radical religion inspired by buddhism claims that everything is alive (including substance). It was considered a massive sin to eat a fruit with seeds - every seed is its own living thing. This form of budism is called janizm. The three jewels of buddhism are: Buddha, the teachings of Buddha - Darma and Sangha - the longest existing community in the world (started from the start of buddhism). Rejected philosophy as a thing.Ba",
+    body: "Buddha was born as a prince. It was prophesised that he will either grow to be a great king or a spiritual leader. Legend has it - that as a toddler he spoke to his mum and said he will bring great things. Buddha was protected from the outside world darkness by his father - the things he would see would tend to be nice and beautiful. However, once he went outside and saw the poverty, death. This shocked him, to an extent that he has decided to give away his fortune and titles and set off to mountains. Years later he came back - enlightened and sharing wisdom with everyone else. Buddhism is based on 4 logisms: '1. Life is suffering. 2. Suffering comes from desire. 3. Get rid of desire and you will get rid of the suffering. 4. Buddhism is the path to help you achieve that'. Buddhists promote a modest life where a person dedicates themselves to self-development, analysis of scriptures, seeking the enlightment. The biggest sin in buddhism is to be ignorant. There is even an alegory to illustrate that: '6 blind men were around an elephant. None of them knew what an elephant was, but were told to describe it. One touched the sturdy said and said - it's a wall. Other touched the trunk and said it's like a snake. Third touched the ear and said it's a fan. Fourth touched a leg and called it a pillar. Fifth touched the tail and said it's a rope. Last one touched the tusk and said it's a spear'. The moral of the story - that describing individual parts won't matter until you combine it all - into one big picture. Buddhism promotes acceptance, open mindness, love for all. There are several forms of budhism. Mahayana - focuses on compassion and delays enlightment until all around has reached it - it even says that within every one of us there is Buddha and buddhahood can be achieved by everyone. Zen - elightment is to see extraordinary in the ordinary - even when it's achieved, nothing changes and life goes on - you just have a different perspective on it. The highest truth is inexpressable - no need to depend on words or letters. 'Buddha is 3 wax candles'. The highest knowledge is intituive. Radical religion inspired by buddhism claims that everything is alive (including substance). It was considered a massive sin to eat a fruit with seeds - every seed is its own living thing. This form of budism is called janizm. The three jewels of buddhism are: Buddha, the teachings of Buddha - Darma and Sangha - the longest existing community in the world (started from the start of buddhism). Rejected philosophy as a thing.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/The_Buddha',
@@ -141,7 +141,7 @@ const entries = [
       alt: 'Confucius',
       caption: 'Confucius',
     },
-    body: "Confucius was a great teacher, who actually didn't think his life was successful. For the great part of his life he thought that he is a failure, because he wasn't able to find a job. He was looking for a job as advisor, but his direct tongue got in the way. He has said many phrases. For example: 'Learning without thought - pointless'. 'Thought without learning - dangerous'. 'You won't learn unless a thing to hold that you know it and when you don't - to allow that you don't know it'. 'To see what is right and not do it is the worst cowardice'. 'It does not matter how slowly you go, as long as you do not stop.' Confucius was the author of 'Do not do to others what you do not want done to yourself'.",
+    body: "Confucius was a great teacher, who actually didn't think his life was successful. For the great part of his life he thought that he is a failure, because he wasn't able to find a job. He was looking for a job as advisor, but his direct tongue got in the way. He has said many phrases. For example: 'Learning without thought - pointless'. 'Thought without learning - dangerous'. 'You won't learn unless a thing to hold that you know it and when you don't - to allow that you don't know it'. 'To see what is right and not do it is the worst cowardice'. 'It does not matter how slowly you go, as long as you do not stop.' Confucius was the author of 'Do not do to others what you do not want done to yourself'. Woman insubordinance is hard to deal with: if you are too friendly to them - they take advantage of you, if you keep your distance - they resent it.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Confucius',
@@ -945,7 +945,7 @@ const entries = [
       alt: 'Jean-Jacques Rousseau',
       caption: 'Jean-Jacques Rousseau',
     },
-    body: "A political thinker, who said that society should serve common people. Benefits can be of two kinds: personal and widespread within society. Social benefits should be enforced.",
+    body: "A political thinker, who said that society should serve common people. Benefits can be of two kinds: personal and widespread within society. Social benefits should be enforced. 'Not what we have, but what we enjoy, constitutes our happiness'.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau',
@@ -1187,6 +1187,27 @@ const entries = [
       caption: 'Sigmund Freud',
     },
     body: "We often don't do what we want. Our true desires lie deep in our subconscious - for example, in our dreams or in failures (failures he said may be done on purpose without realising that). Our true desires are revealed by simply letting one talk (psychotherapy). Parents and other people often tells us this is good, this is bad. Then they add a because where it is usually a scripture or custom or law. That's just the surface. What actually is going on - institutions and practices are created for the society to promote marriage and heterosexuality for the purpose of reproduction - survival theory. Froid also talked about Edipus complex and for this and latter theories he was not very liked by his contemporaries.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Sigmund_Freud',
+        linkText: 'Wiki',
+      }, 
+    ],
+  },
+  {
+    id: 'MahatmaGandhi',
+    categories: ['Peace', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'feather-pointed',
+    datetime: '1869-10-02',
+    title: 'Mahatma Gandhi',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/220px-Mahatma-Gandhi%2C_studio%2C_1931.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/220px-Mahatma-Gandhi%2C_studio%2C_1931.jpg',
+      alt: 'Mahatma Gandhi',
+      caption: 'Mahatma Gandhi',
+    },
+    body: "The face of piece. Gandhi sought Indian independence against collonial Bittish rule. He has started satyagraha - non-violent resistance. He promoted simplicity, self-reliance, equality, fearlessness and sacrafices for the greater good. He had a wife and a 4 children. To show that he is able to have ultimate self-control, he slept in the same bed with his colleague and managed to hold his urges. He said that: 'my life is my message'.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Sigmund_Freud',

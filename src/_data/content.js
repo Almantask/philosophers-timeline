@@ -66,6 +66,27 @@ const entries = [
     ],
   },
   {
+    id: 'Laozi',
+    categories: ['Ethics', 'Simplicity', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-600',
+    title: 'Laozi',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg/220px-Zhang_Lu-Laozi_Riding_an_Ox.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg/220px-Zhang_Lu-Laozi_Riding_an_Ox.jpg',
+      alt: 'Laozi',
+      caption: 'Laozi',
+    },
+    body: "A semi-legendary ancient Chinese Taoist (Daoist). Taoism (Daoism) is a phylosophy, which strives for a natural, calm flow of life. Take it slow, go with the flow, strive to be ninth, rather than first. Seek for simplicity and humility, for a life of strive bring unnecessary stress and discontent. Peace and silent work. Things you do should not be hard for you. This doesn't mean that you shouldn't work hard, but such work should come naturally to you. Live with compassion, sincerity and kindness. Tao (Dao) can be translated as 'the Way' or 'the Path'. Taoism also embraces Ying and Yang, which manifests in the contrasts. For example, 'to succeed you need to fail', 'without good, there cannot be evil'...",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Laozi',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'Pythagoras',
     categories: ['Abstracionism', 'West', 'Europe'],
     color: 'green',
@@ -99,7 +120,7 @@ const entries = [
       alt: 'The Buddha',
       caption: 'The Buddha',
     },
-    body: "Buddha was born as a prince. It was prophesised that he will either grow to be a great king or a spiritual leader. Legend has it - that as a toddler he spoke to his mum and said he will bring great things. Buddha was protected from the outside world darkness by his father - the things he would see would tend to be nice and beautiful. However, once he went outside and saw the poverty, death. This shocked him, to an extent that he has decided to give away his fortune and titles and set off to mountains. Years later he came back - enlightened and sharing wisdom with everyone else. Buddhism is based on 4 logisms: '1. Life is suffering. 2. Suffering comes from desire. 3. Get rid of desire and you will get rid of the suffering. 4. Buddhism is the path to help you achieve that'. Buddhists promote a modest life where a person dedicates themselves to self-development, analysis of scriptures, seeking the enlightment. The biggest sin in buddhism is to be ignorant. There is even an alegory to illustrate that: '6 blind men were around an elephant. None of them knew what an elephant was, but were told to describe it. One touched the sturdy said and said - it's a wall. Other touched the trunk and said it's like a snake. Third touched the ear and said it's a fan. Fourth touched a leg and called it a pillar. Fifth touched the tail and said it's a rope. Last one touched the tusk and said it's a spear'. The moral of the story - that describing individual parts won't matter until you combine it all - into one big picture. Buddhism promotes acceptance, open mindness, love for all. There are several forms of budhism. Mahayana - focuses on compassion and delays enlightment until all around has reached it - it even says that within every one of us there is Buddha and buddhahood can be achieved by everyone. Zen - elightment is to see extraordinary in the ordinary - even when it's achieved, nothing changes and life goes on - you just have a different perspective on it. Radical religion inspired by buddhism claims that everything is alive (including substance). It was considered a massive sin to eat a fruit with seeds - every seed is its own living thing. This form of budism is called janizm. The three jewels of buddhism are: Buddha, the teachings of Buddha - Darma and Sangha - the longest existing community in the world (started from the start of buddhism)",
+    body: "Buddha was born as a prince. It was prophesised that he will either grow to be a great king or a spiritual leader. Legend has it - that as a toddler he spoke to his mum and said he will bring great things. Buddha was protected from the outside world darkness by his father - the things he would see would tend to be nice and beautiful. However, once he went outside and saw the poverty, death. This shocked him, to an extent that he has decided to give away his fortune and titles and set off to mountains. Years later he came back - enlightened and sharing wisdom with everyone else. Buddhism is based on 4 logisms: '1. Life is suffering. 2. Suffering comes from desire. 3. Get rid of desire and you will get rid of the suffering. 4. Buddhism is the path to help you achieve that'. Buddhists promote a modest life where a person dedicates themselves to self-development, analysis of scriptures, seeking the enlightment. The biggest sin in buddhism is to be ignorant. There is even an alegory to illustrate that: '6 blind men were around an elephant. None of them knew what an elephant was, but were told to describe it. One touched the sturdy said and said - it's a wall. Other touched the trunk and said it's like a snake. Third touched the ear and said it's a fan. Fourth touched a leg and called it a pillar. Fifth touched the tail and said it's a rope. Last one touched the tusk and said it's a spear'. The moral of the story - that describing individual parts won't matter until you combine it all - into one big picture. Buddhism promotes acceptance, open mindness, love for all. There are several forms of budhism. Mahayana - focuses on compassion and delays enlightment until all around has reached it - it even says that within every one of us there is Buddha and buddhahood can be achieved by everyone. Zen - elightment is to see extraordinary in the ordinary - even when it's achieved, nothing changes and life goes on - you just have a different perspective on it. Radical religion inspired by buddhism claims that everything is alive (including substance). It was considered a massive sin to eat a fruit with seeds - every seed is its own living thing. This form of budism is called janizm. The three jewels of buddhism are: Buddha, the teachings of Buddha - Darma and Sangha - the longest existing community in the world (started from the start of buddhism). Rejected philosophy as a thing.Ba",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/The_Buddha',
@@ -120,31 +141,10 @@ const entries = [
       alt: 'Confucius',
       caption: 'Confucius',
     },
-    body: "Confucius was a great teacher, who actually didn't think his life was successful. For the great part of his life he thought that he is a failure, because he wasn't able to find a job. He was looking for a job as advisor, but his direct tongue got in the way. He has said many phrases. For example: 'Learning without thought - pointless'. 'Thought without learning - dangerous'. 'You won't learn unless a thing to hold that you know it and when you don't - to allow that you don't know it'. 'To see what is right and not do it is the worst cowardice'. 'It does not matter how slowly you go, as long as you do not stop.' Confucius was the author of 'Do not do to others what you do not want done to yourself.'. ",
+    body: "Confucius was a great teacher, who actually didn't think his life was successful. For the great part of his life he thought that he is a failure, because he wasn't able to find a job. He was looking for a job as advisor, but his direct tongue got in the way. He has said many phrases. For example: 'Learning without thought - pointless'. 'Thought without learning - dangerous'. 'You won't learn unless a thing to hold that you know it and when you don't - to allow that you don't know it'. 'To see what is right and not do it is the worst cowardice'. 'It does not matter how slowly you go, as long as you do not stop.' Confucius was the author of 'Do not do to others what you do not want done to yourself'.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Confucius',
-        linkText: 'Wiki',
-      },
-    ],
-  },
-  {
-    id: 'Laozi',
-    categories: ['Abstracionism', 'West', 'Europe'],
-    color: 'green',
-    faicon: 'dove',
-    datetime: '-500',
-    title: 'Laozi',
-    image: {
-      link: 'https://cdnb.artstation.com/p/assets/images/images/050/528/273/large/rana-abdullah-1.jpg?1655074280',
-      src: 'https://cdnb.artstation.com/p/assets/images/images/050/528/273/large/rana-abdullah-1.jpg?1655074280',
-      alt: 'Laozi',
-      caption: 'Laozi',
-    },
-    body: "TODO: Taoism.",
-    links: [
-      {
-        href: 'https://en.wikipedia.org/wiki/Laozi',
         linkText: 'Wiki',
       },
     ],
@@ -187,6 +187,27 @@ const entries = [
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Socrates',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'Mozi',
+    categories: ['Ethics', 'Utilitariasm', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-470',
+    title: 'Mozi',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg/220px-%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg/220px-%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84_%D0%9C%D0%BE-%D0%A6%D0%B7%D1%8B.jpg',
+      alt: 'Pythagoras',
+      caption: 'Mozi',
+    },
+    body: "People are inheritenly good. We should try to love everyone equally, regardless of their connections to us. Seeked to bring back the simbolic meaning of rituals for simple people, criticizing extravangt rituals - calling them excess. Encouraged logical thinking, rejected superstition. Sought to maximize the overall hapiness of people by promoting the above.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Mozi',
         linkText: 'Wiki',
       },
     ],
@@ -260,7 +281,7 @@ const entries = [
       link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vyasa_telling_Drupada_about_the_previous_lives_of_the_Pandavas_and_Draupada.jpg/220px-Vyasa_telling_Drupada_about_the_previous_lives_of_the_Pandavas_and_Draupada.jpg',
       src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vyasa_telling_Drupada_about_the_previous_lives_of_the_Pandavas_and_Draupada.jpg/220px-Vyasa_telling_Drupada_about_the_previous_lives_of_the_Pandavas_and_Draupada.jpg',
       alt: 'Vyasa',
-      caption: "Vyasa is a legendary sage, demi-human. He is considered to be the author of Mahabharata - the longest epic - 200000 verses long (1.5~2k p.). One of the ideas in the book - Karma Yoga - to do things without the thought of doing it. It's a focus towards being disattached from the results and rather focus on the process, the pure enjoyment of it.",
+      caption: "A legendary sage, demi-human. He is considered to be the author of Mahabharata - the longest epic - 200000 verses long (1.5~2k p.). One of the ideas in the book - Karma Yoga - to do things without the thought of doing it. It's a focus towards being disattached from the results and rather focus on the process, the pure enjoyment of it. Bhagavad Gita, a part of this epic, contains a discourse between Lord Krishna and a warrior Arjuna, hwere Kirshna explains the three gunas. All living beings and nature are composed of various portions of the gunas. Sattva: purity, balance, harmony (wisdom, knowledge, goodness) - when it dominates, such individuals are calm, compassionate. Rajas: activity, energy - when it dominates, such individuals are driven by desires and str impulsive. Tamas: inertia, darkness - when it dominates, such individuals are lazy, unmotivated.",
     },
     body: ".",
     links: [
@@ -307,7 +328,28 @@ const entries = [
       },
     ],
   },
-    {
+  {
+    id: 'Zhuangzi',
+    categories: ['Scepticism', 'Paradoxes', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'dove',
+    datetime: '-365-01-01',
+    title: 'Zhuangzi ',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%E7%8E%84%E9%96%80%E5%8D%81%E5%AD%90%E5%9C%96_%E8%8E%8A%E5%AD%90.jpg/220px-%E7%8E%84%E9%96%80%E5%8D%81%E5%AD%90%E5%9C%96_%E8%8E%8A%E5%AD%90.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/%E7%8E%84%E9%96%80%E5%8D%81%E5%AD%90%E5%9C%96_%E8%8E%8A%E5%AD%90.jpg/220px-%E7%8E%84%E9%96%80%E5%8D%81%E5%AD%90%E5%9C%96_%E8%8E%8A%E5%AD%90.jpg',
+      alt: 'Zhuangzi ',
+      caption: 'Zhuangzi ',
+    },
+    body: "'Am I a human who just woke from a dream or a butterfly, who dreams to be a human?'. People suffer from incomplete perception. Reality is not fixed - it depends on people's experience, interpretation. A change is innevitable and thus rather than resisting it - one should embrace it. Effortless action (Wu Wei) - engage in actions without  force or undue effort, go with the flow of harmony - that way achieving greater affectiveness. Language is inneficient. ",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Zhuang_Zhou',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
     id: 'Pyrrho',
     categories: ['Scepticism', 'West', 'Europe'],
     color: 'green',
@@ -387,6 +429,31 @@ const entries = [
     ],
   },
   {
+    id: 'Vatsyayana',
+    categories: ['Pleasure', 'Sex', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'landmark',
+    datetime: '300',
+    title: 'Vātsyāyana',
+    image: {
+      link: 'https://m.media-amazon.com/images/I/61MfRFzEV2L.jpg',
+      src: 'https://m.media-amazon.com/images/I/61MfRFzEV2L.jpg',
+      alt: 'Vātsyāyana',
+      caption: 'Vātsyāyana',
+    },
+    body: "Author of Kama Sutra. The book is actually not just sex position guide, but a book generally about love and marriage. On how to find the right person for you, on how to make a dinstinction between love and passion, good and bad passion, keep love, flirt, etc.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/V%C4%81tsy%C4%81yana',
+        linkText: 'Wiki',
+      },
+	  {
+        href: 'https://www.amazon.com/Complete-Kama-Sutra-Unabridged-Translation/dp/0892815256',
+        linkText: 'The Complete Kama Sutra (596 p.)',
+      },
+    ],
+  },
+  {
     id: 'SaintAugustine',
     categories: ['Stoicism', 'Religion', 'West', 'Europe'],
     color: 'green',
@@ -428,6 +495,27 @@ const entries = [
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Boethius',
+        linkText: 'Wiki',
+      },
+    ],
+  },
+  {
+    id: 'AdiShankara',
+    categories: ['Metaphysics', 'Religion', 'East', 'Asia'],
+    color: 'green',
+    faicon: 'landmark',
+    datetime: '700',
+    title: 'Adi Shankara',
+    image: {
+      link: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Raja_Ravi_Varma_-_Sankaracharya.jpg/220px-Raja_Ravi_Varma_-_Sankaracharya.jpg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Raja_Ravi_Varma_-_Sankaracharya.jpg/220px-Raja_Ravi_Varma_-_Sankaracharya.jpg',
+      alt: 'Adi Shankara',
+      caption: 'Adi Shankara',
+    },
+    body: "Everything that exists is only in one's mind. The concept of heaven and hell are created by humans and you don't have to die to live in one or the other. Shankara is the founder of Advaita Vedanta - Buddhist school of thought - universe is an illusionary projection of the consiousness. He traveled around India and debated other schollars, founded monastaries, composed hymns.",
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Adi_Shankara',
         linkText: 'Wiki',
       },
     ],

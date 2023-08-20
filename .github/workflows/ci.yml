@@ -11,6 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Install packages in packages.json
+      run: npm install
+
     - name: Build from template
       run: npm run-script build
 

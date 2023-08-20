@@ -383,7 +383,7 @@ const entries = [
       alt: 'Epicurus',
       caption: 'Epicurus',
     },
-    body: "The garden of life. Human growing like a flower, blooming when self-developing. The simplicity of life, self-sufficiency. Happiness is the absence of pain. He gathered people into his house and taught the beauty of life, the need of tending to your environment and oneself. Unlike stoics, he promoted living in a small group of people in a garden, using the 2nd friendship - utility. Enjoying the moment originates from him. Epicuriasm is sometimes associated (falsely) with lavish lifestyles, excessive drinking and other pleasures which are pleasant, but not long term.",
+    body: "Knowledge is needed so that it can eliminate fear and anxiety caused by the unknown. The typical religion of worship and superstition should be replaced by a relgion of contemplation. No act by itself is good or evil - it all depends on the long term consequences. In terms of hedonism - pleasure. Pleasure is the absence of pain. That does not mean to have sex, drink alcohol, etc - on contrary - it is to live a modest life with just enough to meet your needs. Peace of mind is reached leading a minimalistic life, in contemplation, away from society, with friends. He gathered people into his house (garden) and taught the beauty of life, the need of tending to your environment and oneself. Epicurus lead life 100% according to his teachings.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Epicurus',

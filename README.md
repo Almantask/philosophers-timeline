@@ -1,6 +1,10 @@
-# Static timeline generator
+# Philosophers Timeline
 
-This project is baded on https://github.com/molly/static-timeline-generator.
+Philosophers of the ages. A website to capture my (Almantas) personal knowledge of the greatest philosophers of all time and cultures. It's not supposed to serve as an accurate collection of information, or be a complete list, but rather things I find practical and useful to share.
+
+The page supports quick search by a date (from-to, from, -to) or any phrase.
+
+[![CI](https://github.com/Almantask/philosophers-timeline/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Almantask/philosophers-timeline/actions/workflows/ci.yml)
 
 ## Deploy
 
@@ -22,3 +26,5 @@ This project uses
 - [FontAwesome](https://fontawesome.com/)
 - [normalize.css](https://github.com/necolas/normalize.css)
 - [classlist-polyfill](https://github.com/eligrey/classList.js)
+
+This project is baded on https://github.com/molly/static-timeline-generator.
